@@ -419,7 +419,7 @@
       joy: ["#6A3620", "#503058"], mood: ["#252B56", "#432B59"],
       tease: ["#4E2668", "#243E67"], gentle: ["#174B45", "#293F54"]
     };
-    var groups = CAPTIONS.filter(function (group) { return group.id !== "brand" && !/cuios|bản quyền/i.test(String(group.section || "")); }).map(function (group) {
+    var groups = CAPTIONS.map(function (group) {
       return {
         section: group.section,
         items: group.items.map(function (template, index) {
