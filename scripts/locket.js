@@ -4,7 +4,7 @@
   "use strict";
 
   var TAG = "[locket_cuios_stable] ";
-  var VERSION = "4.1.1";
+  var VERSION = "4.1.3";
   var STATE_KEY = "CUIOS_4_1_DIAGNOSTICS";
   var WARNINGS = [];
   var CURRENT_SERVICE = "runtime";
@@ -95,7 +95,7 @@
     var report = {
       runtime: VERSION,
       storageAvailable: storageWorking,
-      recipe: { recordingSeconds: VIDEO_SECONDS, uploadSeconds: UPLOAD_SECONDS, uploadBytes: VIDEO_BYTES, captions: 54 },
+      recipe: { recordingSeconds: VIDEO_SECONDS, uploadSeconds: UPLOAD_SECONDS, uploadBytes: VIDEO_BYTES, captions: 50 },
       observed: state.services,
       deviceFeaturesVerified: false,
       note: "Đây là request/response script đã quan sát, không phải xác nhận Locket đã activate hoặc mic/video đã hoạt động."
@@ -420,21 +420,26 @@
   function captionPatch(entries) {
     // Replace the old picker catalogue as requested; never edit posted moments.
     // Dynamic renderer names and custom static overlay IDs serve different purposes.
-    // Keep the server renderer list instead of replacing it with our 54 custom IDs.
+    // Keep the server renderer list instead of replacing it with our 50 custom IDs.
     var types;
     try { types = JSON.parse(entries.overlay_dynamic_captions || "null"); } catch (_) { types = null; }
     if (!Array.isArray(types) || !types.every(function (value) { return typeof value === "string"; })) {
       types = ["standard", "music", "location", "weather", "time", "streak", "custom"];
     }
     types = types.filter(function (type) { return !/^cuios_/.test(type); });
-    if (types.indexOf("standard") < 0) types.unshift("standard");
+    // Preserve server-provided renderers and explicitly expose Locket's native
+    // dynamic caption types. These are renderer identifiers, not implementations:
+    // weather/time/music values are still supplied by the Locket app itself.
+    ["standard", "custom", "location", "weather", "time", "music", "streak"].forEach(function (type) {
+      if (types.indexOf(type) < 0) types.push(type);
+    });
     var count = 0;
     var colors = {
       brand: ["#3F2B13", "#77541F"], love: ["#59223F", "#342044"],
       joy: ["#6A3620", "#503058"], mood: ["#252B56", "#432B59"],
       tease: ["#4E2668", "#243E67"], gentle: ["#174B45", "#293F54"]
     };
-    var groups = CAPTIONS.map(function (group) {
+    var groups = CAPTIONS.filter(function (group) { return group.id !== "brand" && !/cuios|bản quyền/i.test(String(group.section || "")); }).map(function (group) {
       return {
         section: group.section,
         items: group.items.map(function (template, index) {
@@ -460,7 +465,23 @@
         })
       };
     });
-    entries.overlay_items = JSON.stringify(groups);
+    // Preserve Locket's built-in picker cards (message, music, location,
+    // weather/time where supported, and rating/stars) supplied by Remote Config.
+    // Only replace our own generated catalogue to avoid duplicates on refresh.
+    var nativeGroups = [];
+    try {
+      var existingGroups = JSON.parse(entries.overlay_items || "[]");
+      if (Array.isArray(existingGroups)) {
+        nativeGroups = existingGroups.filter(function (group) {
+          if (!group || !Array.isArray(group.items)) return true;
+          return !group.items.some(function (item) {
+            return item && typeof item.overlay_id === "string" &&
+              item.overlay_id.indexOf("caption:cuios_") === 0;
+          });
+        });
+      }
+    } catch (_) { nativeGroups = []; }
+    entries.overlay_items = JSON.stringify(nativeGroups.concat(groups));
     entries.overlay_dynamic_captions = JSON.stringify(types);
     return count;
   }
