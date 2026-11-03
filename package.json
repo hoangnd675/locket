@@ -1,8 +1,8 @@
 {
   "name": "locket_cuios_stable",
-  "version": "4.1.3",
+  "version": "4.1.1",
   "private": true,
-  "description": "Locket: caption tuỳ chỉnh và caption động native (nhạc, thời tiết, giờ); quay 60s, nhập video 15s/6 MiB",
+  "description": "Locket: mục tiêu quay 60s, nhập video 10s/6 MiB, mic và 54 ghi chú; có chẩn đoán",
   "scripts": {
     "check": "node --check scripts/locket.js",
     "test": "node --test",

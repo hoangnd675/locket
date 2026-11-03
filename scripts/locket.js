@@ -4,16 +4,16 @@
   "use strict";
 
   var TAG = "[locket_cuios_stable] ";
-  var VERSION = "4.1.3";
+  var VERSION = "4.1.1";
   var STATE_KEY = "CUIOS_4_1_DIAGNOSTICS";
   var WARNINGS = [];
   var CURRENT_SERVICE = "runtime";
   var VIDEO_SECONDS = 60;
-  var UPLOAD_SECONDS = 15;
+  var UPLOAD_SECONDS = 10;
   var VIDEO_BYTES = 6 * 1024 * 1024;
-  var ASSET_BASE = "https://raw.githubusercontent.com/hoangnd675/locket/main/assets/";
+  var ASSET_BASE = "https://raw.githubusercontent.com/Cuios-shop/locket_cuios_stable/main/assets/";
   // BEGIN GENERATED CAPTION CATALOGUE
-  var CAPTIONS = [{"id":"love","section":"Tình yêu","background":"love","items":[["choose","Tim tớ chọn cậu rồi","💗"],["withyou","Đi đâu cũng muốn có cậu","🫶"],["soft","Gặp cậu là ngày đẹp","🌷"],["little","Thương cậu thêm một chút","💕"],["home","Bên cậu là thấy nhà","🏡"],["hug","Gửi cậu một cái ôm","🤍"],["miss","Nhớ cậu, không cần lý do","💌"],["smile","Cậu cười là tớ thua","🥰"],["wait","Chừa một chỗ cạnh tớ nhé","💞"],["simple","Thích cậu, thế thôi","💘"]]},{"id":"joy","section":"Vui vẻ","background":"joy","items":[["enough","Hôm nay vui vừa đủ","🌞"],["vitamin","Nạp một chút vitamin cười","🍊"],["happy","Đang bận yêu đời","🌈"],["broadcast","Niềm vui đang phát sóng","📻"],["sun","Mang nắng về nhà","☀️"],["luck","May mắn ghé chơi rồi","🍀"],["photo","Chụp vội một ngày xinh","📸"],["weekend","Cuối tuần nằm trong tim","🎈"],["save","Một ngày đáng lưu lại","✨"],["laugh","Cười lên, ảnh đang đẹp","😆"]]},{"id":"mood","section":"Cảm xúc","background":"mood","items":[["rain","Hôm nay lòng hơi mưa","🌧️"],["quiet","Cho tớ yên một chút","🌙"],["thought","Có vài điều chưa nói","💭"],["slow","Đang học cách chậm lại","🍃"],["hug","Một cái ôm là đủ","🫂"],["tired","Hết pin, cần được thương","🪫"],["okay","Không ổn cũng không sao","🤍"],["hope","Ngày mai mình thử lại","🌅"],["memory","Có người nằm trong ký ức","🎞️"],["feeling","Chẳng biết gọi tên cảm xúc","🫧"]]},{"id":"tease","section":"Trêu đùa","background":"tease","items":[["cute","Xinh thế này ai chịu nổi","😎"],["seen","Xem rồi thì nhớ tớ đi","👀"],["crush","Đẹp vậy mà vẫn độc thân","😌"],["heart","Lỡ xem là phải thả tim","😏"],["busy","Bận đáng yêu, lát nhắn","💅"],["snack","Không giận, chỉ thiếu trà sữa","🧋"],["signal","Phát tín hiệu: nhớ bạn","📡"],["sleep","Online đó, nhưng buồn ngủ","😴"],["model","Camera thường, người phi thường","🤳"],["notice","Thông báo: cần được cưng","📣"]]},{"id":"gentle","section":"Dịu dàng","background":"gentle","items":[["breathe","Hít thở rồi mình đi tiếp","🌿"],["coffee","Cà phê ấm, lòng nhẹ hơn","☕"],["small","Gom niềm vui nhỏ mỗi ngày","🪴"],["enough","Mình đã cố gắng đủ rồi","🌼"],["kind","Dịu dàng với mình một chút","🕊️"],["now","Ở đây, ngay lúc này","🍵"],["sky","Ngước lên, trời vẫn xanh","☁️"],["rest","Nghỉ một nhịp cũng được","🛋️"],["bloom","Mỗi người một mùa nở hoa","🌸"],["night","Ngủ ngon, mai mình lại xinh","🌙"]]}];
+  var CAPTIONS = [{"id":"brand","section":"Cuios • Bản quyền","background":"brand","items":[["certificate","mua chứng chỉ Cuios.shop","👑"],["copyright","Bản quyền Cuios","✨"],["cun","Cưn🍤","🍤"],["tom","tom11th5","💛"]]},{"id":"love","section":"Tình yêu","background":"love","items":[["choose","Tim tớ chọn cậu rồi","💗"],["withyou","Đi đâu cũng muốn có cậu","🫶"],["soft","Gặp cậu là ngày đẹp","🌷"],["little","Thương cậu thêm một chút","💕"],["home","Bên cậu là thấy nhà","🏡"],["hug","Gửi cậu một cái ôm","🤍"],["miss","Nhớ cậu, không cần lý do","💌"],["smile","Cậu cười là tớ thua","🥰"],["wait","Chừa một chỗ cạnh tớ nhé","💞"],["simple","Thích cậu, thế thôi","💘"]]},{"id":"joy","section":"Vui vẻ","background":"joy","items":[["enough","Hôm nay vui vừa đủ","🌞"],["vitamin","Nạp một chút vitamin cười","🍊"],["happy","Đang bận yêu đời","🌈"],["broadcast","Niềm vui đang phát sóng","📻"],["sun","Mang nắng về nhà","☀️"],["luck","May mắn ghé chơi rồi","🍀"],["photo","Chụp vội một ngày xinh","📸"],["weekend","Cuối tuần nằm trong tim","🎈"],["save","Một ngày đáng lưu lại","✨"],["laugh","Cười lên, ảnh đang đẹp","😆"]]},{"id":"mood","section":"Cảm xúc","background":"mood","items":[["rain","Hôm nay lòng hơi mưa","🌧️"],["quiet","Cho tớ yên một chút","🌙"],["thought","Có vài điều chưa nói","💭"],["slow","Đang học cách chậm lại","🍃"],["hug","Một cái ôm là đủ","🫂"],["tired","Hết pin, cần được thương","🪫"],["okay","Không ổn cũng không sao","🤍"],["hope","Ngày mai mình thử lại","🌅"],["memory","Có người nằm trong ký ức","🎞️"],["feeling","Chẳng biết gọi tên cảm xúc","🫧"]]},{"id":"tease","section":"Trêu đùa","background":"tease","items":[["cute","Xinh thế này ai chịu nổi","😎"],["seen","Xem rồi thì nhớ tớ đi","👀"],["crush","Đẹp vậy mà vẫn độc thân","😌"],["heart","Lỡ xem là phải thả tim","😏"],["busy","Bận đáng yêu, lát nhắn","💅"],["snack","Không giận, chỉ thiếu trà sữa","🧋"],["signal","Phát tín hiệu: nhớ bạn","📡"],["sleep","Online đó, nhưng buồn ngủ","😴"],["model","Camera thường, người phi thường","🤳"],["notice","Thông báo: cần được cưng","📣"]]},{"id":"gentle","section":"Dịu dàng","background":"gentle","items":[["breathe","Hít thở rồi mình đi tiếp","🌿"],["coffee","Cà phê ấm, lòng nhẹ hơn","☕"],["small","Gom niềm vui nhỏ mỗi ngày","🪴"],["enough","Mình đã cố gắng đủ rồi","🌼"],["kind","Dịu dàng với mình một chút","🕊️"],["now","Ở đây, ngay lúc này","🍵"],["sky","Ngước lên, trời vẫn xanh","☁️"],["rest","Nghỉ một nhịp cũng được","🛋️"],["bloom","Mỗi người một mùa nở hoa","🌸"],["night","Ngủ ngon, mai mình lại xinh","🌙"]]}];
   // END GENERATED CAPTION CATALOGUE
   var RC = /^https:\/\/(?:api\.revenuecat\.com|api\.rc-backup\.com|api-production\.8-lives-cat\.io)\/v1\/(?:receipts|subscribers\/[^/?#]+)\/?(?:\?[^#]*)?$/i;
   var RC_PROBE = /^https:\/\/(?:api\.revenuecat\.com|api\.rc-backup\.com|api-production\.8-lives-cat\.io)\/(?:v1|v2)\/(?:receipts|subscribers)(?:[/?]|$)/i;
@@ -95,7 +95,7 @@
     var report = {
       runtime: VERSION,
       storageAvailable: storageWorking,
-      recipe: { recordingSeconds: VIDEO_SECONDS, uploadSeconds: UPLOAD_SECONDS, uploadBytes: VIDEO_BYTES, captions: 50 },
+      recipe: { recordingSeconds: VIDEO_SECONDS, uploadSeconds: UPLOAD_SECONDS, uploadBytes: VIDEO_BYTES, captions: 54 },
       observed: state.services,
       deviceFeaturesVerified: false,
       note: "Đây là request/response script đã quan sát, không phải xác nhận Locket đã activate hoặc mic/video đã hoạt động."
@@ -119,7 +119,7 @@
       }
       body = "<!doctype html><html lang=vi><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Cuios · Trạng thái</title>" +
         "<style>body{font:16px system-ui;background:#101522;color:#edf1ff;max-width:780px;margin:auto;padding:24px}section{background:#1d2639;border:1px solid #46516b;border-radius:16px;padding:18px;margin:16px 0}h1{font-size:27px}h2{font-size:20px}p{line-height:1.6}a{color:#b6c8ff}small{color:#b9c3d9}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}strong{color:#ffd693}</style>" +
-        "<h1>Cuios · Kiểm tra kết nối</h1><p>Script đang chạy: <strong>v" + VERSION + "</strong>. Mục tiêu: quay 60s · nhập 10s/6 MiB · 50 ghi chú.</p>" +
+        "<h1>Cuios · Kiểm tra kết nối</h1><p>Script đang chạy: <strong>v" + VERSION + "</strong>. Mục tiêu: quay 60s · nhập 10s/6 MiB · 54 ghi chú.</p>" +
         (storageWorking ? "" : "<section><strong>Kho chẩn đoán không ghi/đọc được. Thiếu trạng thái ở đây chưa chứng minh app không có request; cần xem log script.</strong></section>") +
         card("RevenueCat", "revenuecat") + card("Firebase Remote Config", "firebase") +
         "<section><h2>Kiểm tra HTTPS từ Safari</h2><p><a href='https://api.revenuecat.com/cuios-check'>Kiểm tra RevenueCat</a> · <a href='https://firebaseremoteconfig.googleapis.com/cuios-check'>Kiểm tra Firebase</a></p><p>Chỉ trang có chữ Cuios và v" + VERSION + " là response kiểm tra từ script. Trang lỗi Google/404 không phải kết quả thành công.</p></section>" +
@@ -420,26 +420,21 @@
   function captionPatch(entries) {
     // Replace the old picker catalogue as requested; never edit posted moments.
     // Dynamic renderer names and custom static overlay IDs serve different purposes.
-    // Keep the server renderer list instead of replacing it with our 50 custom IDs.
+    // Keep the server renderer list instead of replacing it with our 54 custom IDs.
     var types;
     try { types = JSON.parse(entries.overlay_dynamic_captions || "null"); } catch (_) { types = null; }
     if (!Array.isArray(types) || !types.every(function (value) { return typeof value === "string"; })) {
       types = ["standard", "music", "location", "weather", "time", "streak", "custom"];
     }
     types = types.filter(function (type) { return !/^cuios_/.test(type); });
-    // Preserve server-provided renderers and explicitly expose Locket's native
-    // dynamic caption types. These are renderer identifiers, not implementations:
-    // weather/time/music values are still supplied by the Locket app itself.
-    ["standard", "custom", "location", "weather", "time", "music", "streak"].forEach(function (type) {
-      if (types.indexOf(type) < 0) types.push(type);
-    });
+    if (types.indexOf("standard") < 0) types.unshift("standard");
     var count = 0;
     var colors = {
       brand: ["#3F2B13", "#77541F"], love: ["#59223F", "#342044"],
       joy: ["#6A3620", "#503058"], mood: ["#252B56", "#432B59"],
       tease: ["#4E2668", "#243E67"], gentle: ["#174B45", "#293F54"]
     };
-    var groups = CAPTIONS.filter(function (group) { return group.id !== "brand" && !/cuios|bản quyền/i.test(String(group.section || "")); }).map(function (group) {
+    var groups = CAPTIONS.map(function (group) {
       return {
         section: group.section,
         items: group.items.map(function (template, index) {
@@ -465,23 +460,7 @@
         })
       };
     });
-    // Preserve Locket's built-in picker cards (message, music, location,
-    // weather/time where supported, and rating/stars) supplied by Remote Config.
-    // Only replace our own generated catalogue to avoid duplicates on refresh.
-    var nativeGroups = [];
-    try {
-      var existingGroups = JSON.parse(entries.overlay_items || "[]");
-      if (Array.isArray(existingGroups)) {
-        nativeGroups = existingGroups.filter(function (group) {
-          if (!group || !Array.isArray(group.items)) return true;
-          return !group.items.some(function (item) {
-            return item && typeof item.overlay_id === "string" &&
-              item.overlay_id.indexOf("caption:cuios_") === 0;
-          });
-        });
-      }
-    } catch (_) { nativeGroups = []; }
-    entries.overlay_items = JSON.stringify(nativeGroups.concat(groups));
+    entries.overlay_items = JSON.stringify(groups);
     entries.overlay_dynamic_captions = JSON.stringify(types);
     return count;
   }
