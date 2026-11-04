@@ -5,15 +5,14 @@
 
   var TAG = "[locket_cuios_stable] ";
   var VERSION = "4.0.5";
-  var STATE_KEY = "CUIOS_4_1_DIAGNOSTICS";
+  var STATE_KEY = "CUIOS_STABLE_V4_DIAGNOSTICS";
   var WARNINGS = [];
   var CURRENT_SERVICE = "runtime";
   var VIDEO_SECONDS = 60;
-  var UPLOAD_SECONDS = 10;
-  var VIDEO_BYTES = 6 * 1024 * 1024;
-  var ASSET_BASE = "https://raw.githubusercontent.com/Cuongqtx11/locket_cuios_stable/main/assets/";
+  var VIDEO_BYTES = 100 * 1024 * 1024;
+  var ASSET_BASE = "https://raw.githubusercontent.com/hoangnd675/locket/main/assets/";
   // BEGIN GENERATED CAPTION CATALOGUE
-  var CAPTIONS = [{"id":"love","section":"Tình yêu","background":"love","items":[["choose","Tim tớ chọn cậu rồi","💗"],["withyou","Đi đâu cũng muốn có cậu","🫶"],["soft","Gặp cậu là ngày đẹp","🌷"],["little","Thương cậu thêm một chút","💕"],["home","Bên cậu là thấy nhà","🏡"],["hug","Gửi cậu một cái ôm","🤍"],["miss","Nhớ cậu, không cần lý do","💌"],["smile","Cậu cười là tớ thua","🥰"],["wait","Chừa một chỗ cạnh tớ nhé","💞"],["simple","Thích cậu, thế thôi","💘"]]},{"id":"joy","section":"Vui vẻ","background":"joy","items":[["enough","Hôm nay vui vừa đủ","🌞"],["vitamin","Nạp một chút vitamin cười","🍊"],["happy","Đang bận yêu đời","🌈"],["broadcast","Niềm vui đang phát sóng","📻"],["sun","Mang nắng về nhà","☀️"],["luck","May mắn ghé chơi rồi","🍀"],["photo","Chụp vội một ngày xinh","📸"],["weekend","Cuối tuần nằm trong tim","🎈"],["save","Một ngày đáng lưu lại","✨"],["laugh","Cười lên, ảnh đang đẹp","😆"]]},{"id":"mood","section":"Cảm xúc","background":"mood","items":[["rain","Hôm nay lòng hơi mưa","🌧️"],["quiet","Cho tớ yên một chút","🌙"],["thought","Có vài điều chưa nói","💭"],["slow","Đang học cách chậm lại","🍃"],["hug","Một cái ôm là đủ","🫂"],["tired","Hết pin, cần được thương","🪫"],["okay","Không ổn cũng không sao","🤍"],["hope","Ngày mai mình thử lại","🌅"],["memory","Có người nằm trong ký ức","🎞️"],["feeling","Chẳng biết gọi tên cảm xúc","🫧"]]},{"id":"tease","section":"Trêu đùa","background":"tease","items":[["cute","Xinh thế này ai chịu nổi","😎"],["seen","Xem rồi thì nhớ tớ đi","👀"],["crush","Đẹp vậy mà vẫn độc thân","😌"],["heart","Lỡ xem là phải thả tim","😏"],["busy","Bận đáng yêu, lát nhắn","💅"],["snack","Không giận, chỉ thiếu trà sữa","🧋"],["signal","Phát tín hiệu: nhớ bạn","📡"],["sleep","Online đó, nhưng buồn ngủ","😴"],["model","Camera thường, người phi thường","🤳"],["notice","Thông báo: cần được cưng","📣"]]},{"id":"gentle","section":"Dịu dàng","background":"gentle","items":[["breathe","Hít thở rồi mình đi tiếp","🌿"],["coffee","Cà phê ấm, lòng nhẹ hơn","☕"],["small","Gom niềm vui nhỏ mỗi ngày","🪴"],["enough","Mình đã cố gắng đủ rồi","🌼"],["kind","Dịu dàng với mình một chút","🕊️"],["now","Ở đây, ngay lúc này","🍵"],["sky","Ngước lên, trời vẫn xanh","☁️"],["rest","Nghỉ một nhịp cũng được","🛋️"],["bloom","Mỗi người một mùa nở hoa","🌸"],["night","Ngủ ngon, mai mình lại xinh","🌙"]]}];
+  var CAPTIONS = [{"id":"tease","section":"Trêu đùa","background":"tease","items":[["pretend","test locket gold, quay 60s có âm thanh, đăng video 10s, thay đổi màu chú thích","🫶",{"style":"prism","image":"captions/v4.0.2/tease_pretend-f0846303d0.png","colors":["#0D201A","#2D503E"]}],["look","Nhìn gì, thích tớ à?","👀",{"style":"prism","image":"captions/v4.0.2/tease_look-b1be52f1aa.png","colors":["#100F30","#272350"]}],["shy","Thả tim đi, đừng ngại","💛",{"style":"silk","image":"captions/v4.0.2/tease_shy-afc122d686.png","colors":["#2C112F","#6A284E"]}],["remember","Xem ảnh hay đang nhớ tớ?","🤭",{"style":"galaxy","image":"captions/v4.0.2/tease_remember-e46956e6d9.png","colors":["#132642","#204E6F"]}],["flirt","Cười gì? Đang thả thính đấy","🎣",{"style":"ember","image":"captions/v4.0.2/tease_flirt-55fe53fb40.png","colors":["#271426","#5D3B4F"]}],["know","Tớ xinh, tớ biết rồi","💅",{"style":"bloom","image":"captions/v4.0.2/tease_know-84f2fe795a.png","colors":["#081D2C","#0F4D4C"]}],["selective","Độc thân có chọn lọc","😌",{"style":"galaxy","image":"captions/v4.0.2/tease_selective-58cab08195.png","colors":["#13192C","#314268"]}],["longlook","Cậu nhìn lâu là tớ ngại","🙈",{"style":"silk","image":"captions/v4.0.2/tease_longlook-a11fbff776.png","colors":["#0E1B2F","#1F4D6E"]}],["loveplease","Đã xem thì phải thương","🥺",{"style":"aurora","image":"captions/v4.0.2/tease_loveplease-1edeb63ff3.png","colors":["#102036","#1A3E5A"]}],["space","Tim cậu còn chỗ không?","💘",{"style":"bloom","image":"captions/v4.0.2/tease_space-3d02cc2d7c.png","colors":["#12243E","#193D59"]}],["fee","Ảnh miễn phí, nhớ tớ tính tiền","🤑",{"style":"sunset","image":"captions/v4.0.2/tease_fee-7d4a38e239.png","colors":["#13253F","#1A405C"]}],["behave","Đang ngoan, đừng chọc","😼",{"style":"aurora","image":"captions/v4.0.2/tease_behave-9c87deb363.png","colors":["#281527","#472C3D"]}],["price","Không chảnh, chỉ hơi đắt giá","👑",{"style":"prism","image":"captions/v4.0.2/tease_price-93ac92e098.png","colors":["#20120B","#57381C"]}],["early","Chưa yêu mà nhớ hơi nhiều","🫣",{"style":"hologram","image":"captions/v4.0.2/tease_early-31297fbbd8.png","colors":["#0E231C","#345B47"]}],["closer","Thích thì nhích lại đây","🫶",{"style":"neon","image":"captions/v4.0.2/tease_closer-5cc9f1b9f8.png","colors":["#071A27","#0D4445"]}],["reply","Không rep là tớ dỗi","😤",{"style":"bloom","image":"captions/v4.0.2/tease_reply-32a8659a82.png","colors":["#100F2F","#322C63"]}],["attention","Xin vía được cậu để ý","✨",{"style":"aurora","image":"captions/v4.0.2/tease_attention-5f4b7508c2.png","colors":["#28170E","#51341A"]}],["order","Chốt đơn một người thương","🛒",{"style":"sunset","image":"captions/v4.0.2/tease_order-d36026ff6c.png","colors":["#15143E","#352E68"]}],["secret","Nhìn vậy thôi, mê cậu lắm","🤫",{"style":"aurora","image":"captions/v4.0.2/tease_secret-b05c31f9c6.png","colors":["#071A29","#0F4E4D"]}],["standstill","Đứng yên, tớ thả thính","🎯",{"style":"bloom","image":"captions/v4.0.2/tease_standstill-0ccc54c5db.png","colors":["#102126","#204446"]}],["cute","Xinh thế này ai chịu nổi","😎",{"style":"sunset","image":"captions/v4.0.2/tease_cute-793e004adc.png","colors":["#132D25","#2B4D3C"]}],["seen","Xem rồi thì nhớ tớ đi","👀",{"style":"ocean","image":"captions/v4.0.2/tease_seen-b538b442f7.png","colors":["#0F0F2E","#272350"]}],["crush","Đẹp vậy mà vẫn độc thân","😌",{"style":"liquid","image":"captions/v4.0.2/tease_crush-2af64e8a2c.png","colors":["#2A180F","#5F3D1F"]}],["heart","Lỡ xem là phải thả tim","😏",{"style":"liquid","image":"captions/v4.0.2/tease_heart-7dbc4a025d.png","colors":["#1D1134","#492C66"]}],["busy","Bận đáng yêu, lát nhắn","💅",{"style":"ocean","image":"captions/v4.0.2/tease_busy-9d8e692d0d.png","colors":["#143128","#2A4A3A"]}],["snack","Không giận, chỉ thiếu trà sữa","🧋",{"style":"hologram","image":"captions/v4.0.2/tease_snack-427794f461.png","colors":["#13253F","#1D4766"]}],["signal","Phát tín hiệu: nhớ bạn","📡",{"style":"aurora","image":"captions/v4.0.2/tease_signal-c3538be808.png","colors":["#2D182C","#543548"]}],["sleep","Online đó, nhưng buồn ngủ","😴",{"style":"liquid","image":"captions/v4.0.2/tease_sleep-b1b4b104db.png","colors":["#1B1C36","#32354F"]}],["model","Camera thường, người phi thường","🤳",{"style":"cyber","image":"captions/v4.0.2/tease_model-3530c6174f.png","colors":["#23143D","#492C67"]}],["notice","Thông báo: cần được cưng","📣",{"style":"galaxy","image":"captions/v4.0.2/tease_notice-478808ea82.png","colors":["#0D1A2D","#1F4D6E"]}]]},{"id":"humor","section":"Hài hước","background":"joy","items":[["wallet","Ví mỏng, tâm hồn phú hộ","💸",{"style":"bloom","image":"captions/v4.0.2/humor_wallet-feaaa2472a.png","colors":["#28161A","#4B2726"]}],["deadline","Deadline dí, tớ vẫn lì","🫠",{"style":"sunset","image":"captions/v4.0.2/humor_deadline-c0a4555844.png","colors":["#143128","#325744"]}],["attitude","Hết tiền nhưng còn thần thái","😎",{"style":"prism","image":"captions/v4.0.2/humor_attitude-cad748e545.png","colors":["#1B0F2F","#4D2E6C"]}],["awake","Dậy rồi, hồn chưa tới","👻",{"style":"prism","image":"captions/v4.0.2/humor_awake-a37aec1770.png","colors":["#181930","#3F4462"]}],["natural","Đẹp tự nhiên, lười tự phát","🦥",{"style":"ember","image":"captions/v4.0.2/humor_natural-c8445ca789.png","colors":["#12262B","#204547"]}],["maintenance","Não đang bảo trì","🧠",{"style":"aurora","image":"captions/v4.0.2/humor_maintenance-7de1434483.png","colors":["#250E28","#562041"]}],["eatfirst","Ăn trước, tính sau","🍜",{"style":"sunset","image":"captions/v4.0.2/humor_eatfirst-7da6f87d0b.png","colors":["#0F1D33","#1C4463"]}],["salary","Lương chưa về, đơn đã tới","📦",{"style":"aurora","image":"captions/v4.0.2/humor_salary-540a1e85e4.png","colors":["#111032","#2C2758"]}],["rest","Chăm chỉ nghỉ ngơi","🛌",{"style":"silk","image":"captions/v4.0.2/humor_rest-61d8a54865.png","colors":["#23140C","#59391D"]}],["hungry","Bụng đói, miệng vẫn cười","😋",{"style":"cyber","image":"captions/v4.0.2/humor_hungry-4698db8060.png","colors":["#141B30","#2F3F63"]}],["sleepy","Chưa giàu nhưng rất buồn ngủ","😴",{"style":"liquid","image":"captions/v4.0.2/humor_sleepy-166ae52e3a.png","colors":["#2B190F","#4E3219"]}],["lag","Mặt tỉnh, đầu đang lag","🌀",{"style":"neon","image":"captions/v4.0.2/humor_lag-bd502f912f.png","colors":["#311335","#552041"]}],["subject","Giỏi nhất môn nằm nghỉ","🏆",{"style":"galaxy","image":"captions/v4.0.2/humor_subject-f05e756e10.png","colors":["#143027","#294A3A"]}],["alarm","Sống lỗi với báo thức","⏰",{"style":"ocean","image":"captions/v4.0.2/humor_alarm-a5edf8a2f8.png","colors":["#151440","#272351"]}],["gossip","Pin yếu mà vẫn hóng","🍿",{"style":"silk","image":"captions/v4.0.2/humor_gossip-2f05829d4b.png","colors":["#17182E","#30344C"]}]]},{"id":"love","section":"Tình yêu","background":"love","items":[["choose","Tim tớ chọn cậu rồi","💗",{"style":"ocean","image":"captions/v4.0.2/love_choose-d96dce875d.png","colors":["#341C22","#5D312F"]}],["withyou","Đi đâu cũng muốn có cậu","🫶",{"style":"cyber","image":"captions/v4.0.2/love_withyou-82c81d9062.png","colors":["#29102C","#612448"]}],["soft","Gặp cậu là ngày đẹp","🌷",{"style":"prism","image":"captions/v4.0.2/love_soft-4a087f68fa.png","colors":["#2A1629","#674157"]}],["little","Thương cậu thêm một chút","💕",{"style":"cyber","image":"captions/v4.0.2/love_little-e322d0fa6d.png","colors":["#081E2F","#10504F"]}],["home","Bên cậu là thấy nhà","🏡",{"style":"neon","image":"captions/v4.0.2/love_home-cc1a3d73ef.png","colors":["#142A30","#22494A"]}],["hug","Gửi cậu một cái ôm","🤍",{"style":"bloom","image":"captions/v4.0.2/love_hug-49993c3c36.png","colors":["#1B1C36","#383C57"]}],["miss","Nhớ cậu, không cần lý do","💌",{"style":"liquid","image":"captions/v4.0.2/love_miss-24845da925.png","colors":["#071826","#105352"]}],["smile","Cậu cười là tớ thua","🥰",{"style":"ember","image":"captions/v4.0.2/love_smile-562e28ceee.png","colors":["#162D33","#1F4243"]}],["wait","Chừa một chỗ cạnh tớ nhé","💞",{"style":"hologram","image":"captions/v4.0.2/love_wait-a62057abc9.png","colors":["#141A2F","#314267"]}],["simple","Thích cậu, thế thôi","💘",{"style":"neon","image":"captions/v4.0.2/love_simple-bac6bedf2d.png","colors":["#081D2D","#115A58"]}]]},{"id":"joy","section":"Vui vẻ","background":"joy","items":[["enough","Hôm nay vui vừa đủ","🌞",{"style":"cyber","image":"captions/v4.0.2/joy_enough-dab80fd762.png","colors":["#2A1629","#664056"]}],["vitamin","Nạp một chút vitamin cười","🍊",{"style":"galaxy","image":"captions/v4.0.2/joy_vitamin-050193247d.png","colors":["#12233C","#173750"]}],["happy","Đang bận yêu đời","🌈",{"style":"liquid","image":"captions/v4.0.2/joy_happy-8b3b65a09e.png","colors":["#23143D","#3F265A"]}],["broadcast","Niềm vui đang phát sóng","📻",{"style":"bloom","image":"captions/v4.0.2/joy_broadcast-d016470dd7.png","colors":["#311B1F","#613330"]}],["sun","Mang nắng về nhà","☀️",{"style":"prism","image":"captions/v4.0.2/joy_sun-308e201e3c.png","colors":["#0A2437","#105453"]}],["luck","May mắn ghé chơi rồi","🍀",{"style":"ember","image":"captions/v4.0.2/joy_luck-023168ccbe.png","colors":["#100F2F","#282352"]}],["photo","Chụp vội một ngày xinh","📸",{"style":"ocean","image":"captions/v4.0.2/joy_photo-64672706c8.png","colors":["#261643","#472B65"]}],["weekend","Cuối tuần nằm trong tim","🎈",{"style":"ember","image":"captions/v4.0.2/joy_weekend-f1153a3a0d.png","colors":["#311B1F","#6C3935"]}],["save","Một ngày đáng lưu lại","✨",{"style":"liquid","image":"captions/v4.0.2/joy_save-4d16cb7762.png","colors":["#15143F","#352F68"]}],["laugh","Cười lên, ảnh đang đẹp","😆",{"style":"aurora","image":"captions/v4.0.2/joy_laugh-a8754e46e7.png","colors":["#0E221B","#2D4F3E"]}]]},{"id":"mood","section":"Cảm xúc","background":"mood","items":[["rain","Hôm nay lòng hơi mưa","🌧️",{"style":"sunset","image":"captions/v4.0.2/mood_rain-4a654b1ae3.png","colors":["#250E28","#5D2346"]}],["quiet","Cho tớ yên một chút","🌙",{"style":"silk","image":"captions/v4.0.2/mood_quiet-28172e70c4.png","colors":["#29102C","#511E3E"]}],["thought","Có vài điều chưa nói","💭",{"style":"ember","image":"captions/v4.0.2/mood_thought-6944e9a297.png","colors":["#111032","#272250"]}],["slow","Đang học cách chậm lại","🍃",{"style":"cyber","image":"captions/v4.0.2/mood_slow-a216d084c2.png","colors":["#122C24","#254334"]}],["hug","Một cái ôm là đủ","🫂",{"style":"liquid","image":"captions/v4.0.2/mood_hug-e4469b03ac.png","colors":["#15162A","#3B3F5B"]}],["tired","Hết pin, cần được thương","🪫",{"style":"ocean","image":"captions/v4.0.2/mood_tired-15625d5b32.png","colors":["#2A102D","#4E1D3C"]}],["okay","Không ổn cũng không sao","🤍",{"style":"neon","image":"captions/v4.0.2/mood_okay-f38da52d88.png","colors":["#351D22","#613330"]}],["hope","Ngày mai mình thử lại","🌅",{"style":"hologram","image":"captions/v4.0.2/mood_hope-245a949bbd.png","colors":["#121136","#302A60"]}],["memory","Có người nằm trong ký ức","🎞️",{"style":"neon","image":"captions/v4.0.2/mood_memory-23b05b34c1.png","colors":["#112138","#173750"]}],["feeling","Chẳng biết gọi tên cảm xúc","🫧",{"style":"sunset","image":"captions/v4.0.2/mood_feeling-4d86f30d50.png","colors":["#281745","#492C66"]}]]},{"id":"friends","section":"Bạn bè","background":"love","items":[["karma","Bạn thân, nghiệp ai nấy giữ","🤝",{"style":"neon","image":"captions/v4.0.2/friends_karma-a5bfb0375d.png","colors":["#0F0E2D","#302B60"]}],["stories","Có bạn là có chuyện kể","💬",{"style":"galaxy","image":"captions/v4.0.2/friends_stories-587481d12e.png","colors":["#251324","#563649"]}],["together","Đi cùng nhau mới vui","🎈",{"style":"prism","image":"captions/v4.0.2/friends_together-20f945b5cd.png","colors":["#2D1130","#4D1D3B"]}],["call","Bạn gọi, tớ có mặt","🫂",{"style":"silk","image":"captions/v4.0.2/friends_call-0b0e3e6484.png","colors":["#29161A","#4C2827"]}],["snacks","Đồng đội hệ ăn vặt","🍟",{"style":"galaxy","image":"captions/v4.0.2/friends_snacks-cf1c4b4c96.png","colors":["#13253F","#183A55"]}]]},{"id":"daily","section":"Đời thường","background":"mood","items":[["coffee","Cà phê trước, thế giới sau","☕",{"style":"hologram","image":"captions/v4.0.2/daily_coffee-db423704d1.png","colors":["#0F251E","#2B4D3C"]}],["study","Học một chút, mơ thật nhiều","📚",{"style":"ember","image":"captions/v4.0.2/daily_study-be2c48e577.png","colors":["#2C172B","#643F55"]}],["offwork","Tan làm là hồi sinh","🌅",{"style":"hologram","image":"captions/v4.0.2/daily_offwork-feab508772.png","colors":["#261642","#382251"]}],["anywhere","Đi đâu cũng được, miễn vui","🛵",{"style":"galaxy","image":"captions/v4.0.2/daily_anywhere-fe30e6bbd7.png","colors":["#161440","#26224E"]}],["ordinary","Ngày bình thường, ảnh xinh","📸",{"style":"neon","image":"captions/v4.0.2/daily_ordinary-1aa76b7bc0.png","colors":["#143027","#2D503E"]}]]},{"id":"confidence","section":"Tự tin · Yêu đời","background":"tease","items":[["filter","Tự tin là bộ lọc đẹp nhất","✨",{"style":"ocean","image":"captions/v4.0.2/confidence_filter-6703fe6e88.png","colors":["#171F37","#263350"]}],["choice","Tớ chọn vui, cậu chọn gì?","🌞",{"style":"cyber","image":"captions/v4.0.2/confidence_choice-1cf87211dd.png","colors":["#142642","#173852"]}],["version","Phiên bản này hơi đáng yêu","💖",{"style":"hologram","image":"captions/v4.0.2/confidence_version-a5da7658e0.png","colors":["#1D1032","#43285F"]}],["myway","Đẹp theo cách của tớ","🌷",{"style":"hologram","image":"captions/v4.0.2/confidence_myway-27022b568d.png","colors":["#1B1C36","#3D425F"]}],["imperfect","Không hoàn hảo, vẫn rất xịn","🌟",{"style":"silk","image":"captions/v4.0.2/confidence_imperfect-dcb30f9f89.png","colors":["#321B20","#6B3835"]}]]}];
   // END GENERATED CAPTION CATALOGUE
   var RC = /^https:\/\/(?:api\.revenuecat\.com|api\.rc-backup\.com|api-production\.8-lives-cat\.io)\/v1\/(?:receipts|subscribers\/[^/?#]+)\/?(?:\?[^#]*)?$/i;
   var RC_PROBE = /^https:\/\/(?:api\.revenuecat\.com|api\.rc-backup\.com|api-production\.8-lives-cat\.io)\/(?:v1|v2)\/(?:receipts|subscribers)(?:[/?]|$)/i;
@@ -89,13 +88,10 @@
       }
     } catch (_) { /* Show that observation storage is unavailable instead of implying no traffic. */ }
     var state = readDiagnostics();
-    var viaHTTPS = HTTPS_CHECK.test(String(request.url || ""));
-    var statusHref = viaHTTPS ? "/cuios-check?view=status" : "/status?reload=1";
-    var reportHref = viaHTTPS ? "/cuios-check?view=report" : "/report.json";
     var report = {
       runtime: VERSION,
       storageAvailable: storageWorking,
-      recipe: { recordingSeconds: VIDEO_SECONDS, uploadSeconds: UPLOAD_SECONDS, uploadBytes: VIDEO_BYTES, captions: 54 },
+      recipe: { seconds: VIDEO_SECONDS, uploadBytes: VIDEO_BYTES, captions: 94 },
       observed: state.services,
       deviceFeaturesVerified: false,
       note: "Đây là request/response script đã quan sát, không phải xác nhận Locket đã activate hoặc mic/video đã hoạt động."
@@ -119,13 +115,13 @@
       }
       body = "<!doctype html><html lang=vi><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Cuios · Trạng thái</title>" +
         "<style>body{font:16px system-ui;background:#101522;color:#edf1ff;max-width:780px;margin:auto;padding:24px}section{background:#1d2639;border:1px solid #46516b;border-radius:16px;padding:18px;margin:16px 0}h1{font-size:27px}h2{font-size:20px}p{line-height:1.6}a{color:#b6c8ff}small{color:#b9c3d9}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}strong{color:#ffd693}</style>" +
-        "<h1>Cuios · Kiểm tra kết nối</h1><p>Script đang chạy: <strong>v" + VERSION + "</strong>. Mục tiêu: quay 60s · nhập 10s/6 MiB · 54 ghi chú.</p>" +
+        "<h1>Cuios · Kiểm tra kết nối</h1><p>Script đang chạy: <strong>v" + VERSION + "</strong>. Mục tiêu: 60s · 100 MiB · 94 ghi chú.</p>" +
         (storageWorking ? "" : "<section><strong>Kho chẩn đoán không ghi/đọc được. Thiếu trạng thái ở đây chưa chứng minh app không có request; cần xem log script.</strong></section>") +
         card("RevenueCat", "revenuecat") + card("Firebase Remote Config", "firebase") +
-        "<section><h2>Kiểm tra HTTPS từ Safari</h2><p><a href='https://api.revenuecat.com/cuios-check'>Kiểm tra RevenueCat</a> · <a href='https://firebaseremoteconfig.googleapis.com/cuios-check'>Kiểm tra Firebase</a></p><p>Chỉ trang có chữ Cuios và v" + VERSION + " là response kiểm tra từ script. Trang lỗi Google/404 không phải kết quả thành công.</p></section>" +
+        "<section><h2>Kiểm tra HTTPS từ Safari</h2><p><a href='https://api.revenuecat.com/cuios-check'>Kiểm tra RevenueCat</a> · <a href='https://firebaseremoteconfig.googleapis.com/cuios-check'>Kiểm tra Firebase</a></p><p>Chỉ trang có chữ Cuios và v4.0.5 là response kiểm tra từ script. Trang lỗi Google/404 không phải kết quả thành công.</p></section>" +
         card("HTTPS RevenueCat qua trình duyệt", "https_revenuecat") + card("HTTPS Firebase qua trình duyệt", "https_firebase") +
         "<section><h2>Đọc kết quả</h2><p>Nếu chưa có request Firebase, đổi module chưa đủ để Locket tải cấu hình mới. Nếu response đã được sửa mà app vẫn cũ, cần kiểm tra activate/schema phía app. Trang này không tự xoá cache Locket hoặc cấp quyền mic.</p><p>Chỉ bật một module Locket. Bật proxy trước, mở Locket, rồi mở lại trang này.</p></section>" +
-        "<p><a href='" + statusHref + "'>Tải lại trạng thái</a> · <a href='" + reportHref + "'>Xem báo cáo chẩn đoán</a></p><details><summary>Chi tiết có thể gửi để kiểm tra</summary><pre>" + escapeHTML(JSON.stringify(report, null, 2)) + "</pre></details></html>";
+        "<p><a href='/status?reload=1'>Tải lại trạng thái</a> · <a href='/report.json'>Xem báo cáo chẩn đoán</a></p><details><summary>Chi tiết có thể gửi để kiểm tra</summary><pre>" + escapeHTML(JSON.stringify(report, null, 2)) + "</pre></details></html>";
       headers["Content-Security-Policy"] = "default-src 'none'; style-src 'unsafe-inline'; frame-ancestors 'none'";
       headers["X-Content-Type-Options"] = "nosniff";
     }
@@ -330,7 +326,6 @@
         fields(object[key], path + "." + key, depth + 1);
       });
     }
-    fields(entries, "entries", 0);
     ["camera", "camera_roll", "video_config"].forEach(function (key) {
       var value;
       try { value = typeof entries[key] === "string" ? JSON.parse(entries[key]) : entries[key]; } catch (_) { value = null; }
@@ -339,95 +334,85 @@
     event("firebase", { inputSchema: schema, inputFlags: flags, inputLibraryLimits: report, inputMediaFields: mediaFields });
   }
 
-  function patchMedia(entries, key, defaults, library) {
-    if (entries[key] === undefined && !defaults) return;
+  function patchMedia(entries, key, defaults) {
+    if (defaults) mergeEntry(entries, key, defaults);
+    if (entries[key] === undefined) return;
     var config;
     try {
-      config = entries[key] === undefined ? {} :
-        typeof entries[key] === "string" ? JSON.parse(entries[key]) : entries[key];
-    } catch (_) { WARNINGS.push(key); return; }
-    if (!record(config)) { WARNINGS.push(key); return; }
-    // Defaults fill missing keys only, so existing numeric strings keep their type.
-    Object.keys(defaults || {}).forEach(function (name) {
-      if (config[name] === undefined) config[name] = defaults[name];
-    });
+      config = typeof entries[key] === "string" ? JSON.parse(entries[key]) : entries[key];
+    } catch (_) { if (WARNINGS.indexOf(key) < 0) WARNINGS.push(key); return; }
+    if (!record(config)) { if (WARNINGS.indexOf(key) < 0) WARNINGS.push(key); return; }
+
+    // Compatibility defaults; these do not add native capture/picker implementations.
     var switches = key === "camera" ? ["microphone_enabled", "sound_enabled"]
       : key === "camera_roll" ? ["enabled", "video_enabled", "video_upload_enabled", "preserve_audio"] : [];
     switches.forEach(function (name) {
       if (config[name] === undefined) config[name] = true;
     });
-    function setFlag(object, name, enabled) {
-      if (typeof object[name] === "boolean") object[name] = enabled;
-      else if (object[name] === "true" || object[name] === "false") object[name] = String(enabled);
-    }
+
+    // Only known media entries; never rewrite arbitrary numbers or Android schemas.
+    ["gold_max_duration", "goldMaxDuration", "max_duration", "maxDuration",
+      "video_max_duration", "videoMaxDuration", "video_duration", "videoDuration",
+      "trim_max_duration", "trimMaxDuration", "camera_roll_max_duration",
+      "camera_roll_video_max_duration", "recording_duration", "recording_max_duration",
+      "longer_videos_duration", "longer_video_duration", "maximum_duration", "maximumDuration", "max_length"].forEach(function (name) {
+      if (Object.prototype.hasOwnProperty.call(config, name)) config[name] = VIDEO_SECONDS;
+    });
+    // Milliseconds are changed only for explicitly named fields already in the response.
+    ["max_duration_ms", "video_max_duration_ms", "gold_max_duration_ms",
+      "recording_duration_ms", "trim_max_duration_ms"].forEach(function (name) {
+      if (Object.prototype.hasOwnProperty.call(config, name)) config[name] = VIDEO_SECONDS * 1000;
+    });
     function audioFlags(object) {
       ["audio_enabled", "sound_enabled", "microphone_enabled", "include_audio", "preserve_audio",
         "muted", "mute", "strip_audio", "remove_audio"].forEach(function (name) {
-        setFlag(object, name, !/^(?:muted|mute|strip_audio|remove_audio)$/.test(name));
+        if (!Object.prototype.hasOwnProperty.call(object, name)) return;
+        var enabled = !/^(?:muted|mute|strip_audio|remove_audio)$/.test(name);
+        if (typeof object[name] === "boolean") object[name] = enabled;
+        else if (object[name] === "true" || object[name] === "false") object[name] = String(enabled);
       });
-      if (record(object.audio)) {
-        setFlag(object.audio, "enabled", true);
-        ["audio_enabled", "sound_enabled", "microphone_enabled", "include_audio", "preserve_audio",
-          "muted", "mute", "strip_audio", "remove_audio"].forEach(function (name) {
-          setFlag(object.audio, name, !/^(?:muted|mute|strip_audio|remove_audio)$/.test(name));
-        });
-      }
     }
-    function number(object, name, value) {
-      if (typeof object[name] === "number" && isFinite(object[name])) object[name] = value;
-      else if (typeof object[name] === "string" && /^\d+(?:\.\d+)?$/.test(object[name])) object[name] = String(value);
+    ["enabled", "video_enabled", "video_upload_enabled", "camera_roll_enabled", "recording_enabled"].forEach(function (name) {
+      if (typeof config[name] === "boolean") config[name] = true;
+      else if (config[name] === "true" || config[name] === "false") config[name] = "true";
+    });
+    audioFlags(config);
+    if (record(config.audio)) {
+      audioFlags(config.audio);
+      if (typeof config.audio.enabled === "boolean") config.audio.enabled = true;
+      else if (config.audio.enabled === "true" || config.audio.enabled === "false") config.audio.enabled = "true";
     }
-    function duration(name, isLibrary) {
-      if (/recording|recorded|record_/i.test(name)) return VIDEO_SECONDS;
-      return /upload|camera_roll|trim/i.test(name) || isLibrary ? UPLOAD_SECONDS : VIDEO_SECONDS;
-    }
-    function limits(object, depth, isLibrary) {
-      ["gold_max_duration", "goldMaxDuration", "max_duration", "maxDuration",
-        "video_max_duration", "videoMaxDuration", "video_duration", "videoDuration",
-        "trim_max_duration", "trimMaxDuration", "camera_roll_max_duration",
-        "camera_roll_video_max_duration", "recording_duration", "recording_max_duration",
-        "longer_videos_duration", "longer_video_duration", "maximum_duration", "maximumDuration",
-        "max_length", "video_upload_max_duration"].forEach(function (name) {
-        number(object, name, duration(name, isLibrary));
+    function limits(object, depth) {
+      ["gold_max_duration", "goldMaxDuration", "max_duration", "maxDuration", "video_max_duration", "videoMaxDuration",
+        "maximum_duration", "maximumDuration", "trim_max_duration", "trimMaxDuration", "recording_duration",
+        "max_length", "video_duration", "video_upload_max_duration", "camera_roll_max_duration", "camera_roll_video_max_duration"].forEach(function (name) {
+        if (Object.prototype.hasOwnProperty.call(object, name)) object[name] = VIDEO_SECONDS;
       });
-      ["max_duration_ms", "video_max_duration_ms", "gold_max_duration_ms",
-        "recording_duration_ms", "trim_max_duration_ms"].forEach(function (name) {
-        number(object, name, duration(name, isLibrary) * 1000);
+      ["max_duration_ms", "video_max_duration_ms", "gold_max_duration_ms", "recording_duration_ms", "trim_max_duration_ms"].forEach(function (name) {
+        if (Object.prototype.hasOwnProperty.call(object, name)) object[name] = VIDEO_SECONDS * 1000;
       });
-      ["max_file_size", "max_upload_bytes", "max_size_bytes", "max_file_size_bytes",
-        "video_max_size_bytes", "max_video_size_bytes"].forEach(function (name) {
-        // A shared recording byte cap is not an upload limit. Leave it alone.
-        if (isLibrary || /upload/.test(name)) number(object, name, VIDEO_BYTES);
+      ["max_file_size", "max_upload_bytes", "max_size_bytes", "max_file_size_bytes", "video_max_size_bytes", "max_video_size_bytes"].forEach(function (name) {
+        if (Object.prototype.hasOwnProperty.call(object, name)) {
+          object[name] = typeof object[name] === "string" ? String(VIDEO_BYTES) : VIDEO_BYTES;
+        }
       });
       ["max_file_size_mb", "max_size_mb", "max_upload_mb"].forEach(function (name) {
-        if (isLibrary || /upload/.test(name)) number(object, name, 6);
-      });
-      ["enabled", "video_enabled", "video_upload_enabled", "camera_roll_enabled", "recording_enabled"].forEach(function (name) {
-        setFlag(object, name, true);
+        if (Object.prototype.hasOwnProperty.call(object, name)) object[name] = typeof object[name] === "string" ? "100" : 100;
       });
       audioFlags(object);
+      if (record(object.audio)) audioFlags(object.audio);
       if (depth >= 4) return;
       ["video", "upload", "recording", "trim", "limits", "free", "gold", "default"].forEach(function (name) {
-        if (!record(object[name])) return;
-        var childLibrary = name === "recording" ? false : /^(?:upload|trim)$/.test(name) ? true : isLibrary;
-        limits(object[name], depth + 1, childLibrary);
+        if (record(object[name])) limits(object[name], depth + 1);
       });
     }
-    limits(config, 0, Boolean(library));
+    limits(config, 0);
     entries[key] = JSON.stringify(config);
   }
 
-  function captionPatch(entries) {
-    // Replace the old picker catalogue as requested; never edit posted moments.
-    // Dynamic renderer names and custom static overlay IDs serve different purposes.
-    // Keep the server renderer list instead of replacing it with our 54 custom IDs.
-    var types;
-    try { types = JSON.parse(entries.overlay_dynamic_captions || "null"); } catch (_) { types = null; }
-    if (!Array.isArray(types) || !types.every(function (value) { return typeof value === "string"; })) {
-      types = ["standard", "music", "location", "weather", "time", "streak", "custom"];
-    }
-    types = types.filter(function (type) { return !/^cuios_/.test(type); });
-    if (types.indexOf("standard") < 0) types.unshift("standard");
+  function captionPatch(entries, previous) {
+    // Ordinary profile replaces captions; Looks keeps native groups first.
+    var types = [];
     var count = 0;
     var colors = {
       brand: ["#3F2B13", "#77541F"], love: ["#59223F", "#342044"],
@@ -440,18 +425,20 @@
         items: group.items.map(function (template, index) {
           var type = "cuios_" + group.id + "_" + template[0];
           var background = group.background === "brand" ? "brand" : group.background + "_" + (index % 2 + 1);
+          var decoration = group.id !== "brand" && record(template[3]) ? template[3] : null;
+          var backdrop = {
+            colors: decoration ? decoration.colors : colors[group.background],
+            image: { type: "image", source: "url", data: ASSET_BASE + (decoration ? decoration.image :
+              "captions/" + background + ".png?v=" + (group.id === "brand" ? "4.0.1" : VERSION)) }
+          };
+          types.push(type);
           count++;
-          var backdrop = { colors: colors[group.background] };
-          // The default compatibility profile has no remote image dependency.
-          if (typeof $argument === "string" && /^(?:aura|gold|rose)-frame$/.test($argument)) {
-            backdrop.image = { type: "image", source: "url", data: ASSET_BASE + "captions/" + background + ".png?v=" + VERSION };
-          }
           return {
             overlay_id: "caption:" + type,
             source: "remote",
             caption: {
               type: "static_content", text: template[1],
-              localized_text: { vi: template[1], vn: template[1], en: template[1] },
+              localized_text: { vi: template[1], en: template[1] },
               icon: { type: "emoji", data: template[2] },
               background: backdrop,
               text_color: "#FFFFFF", max_lines: 1
@@ -460,13 +447,119 @@
         })
       };
     });
+    if (previous) {
+      var owned = Object.create(null);
+      types.forEach(function (type) { owned[type] = true; });
+      var nativeGroups = [];
+      previous.groups.forEach(function (group) {
+        var retained = group.items.filter(function (item) {
+          return !record(item) || typeof item.overlay_id !== "string" ||
+            item.overlay_id.indexOf("caption:") !== 0 || !owned[item.overlay_id.slice(8)];
+        });
+        // Remove only groups emptied by replacing our exact generated IDs.
+        if (retained.length || group.items.length === 0) {
+          nativeGroups.push(Object.assign({}, group, { items: retained }));
+        }
+      });
+      groups = nativeGroups.concat(groups);
+      types = previous.types.filter(function (type) {
+        return typeof type !== "string" || !owned[type];
+      }).concat(types);
+    }
     entries.overlay_items = JSON.stringify(groups);
     entries.overlay_dynamic_captions = JSON.stringify(types);
     return count;
   }
 
+  function overlayPatch(entries) {
+    var mode = typeof $argument === "string" ? $argument : "";
+    var details = { mode: mode === "looks-native" ? "native" : mode === "looks-aura-frame" ? "merge" : "replace" };
+    if (details.mode === "replace") {
+      Object.assign(entries, { captions_enabled: "true", overlay_navigator_enabled: "true",
+        music_caption_enabled: "true", music_caption_song_preview_enabled: "true", link_caption_link_enabled: "true" });
+      mergeEntry(entries, "overlays_v2_config", { suggestions_enabled: true });
+      var count = captionPatch(entries);
+      event("firebase", { overlays: { mode: "replace", action: "replaced", addedCaptions: count } });
+      return count;
+    }
+    // Looks must not force a legacy navigator or overwrite server layout flags.
+    if (details.mode === "native") {
+      event("firebase", { overlays: { mode: "native", action: "native_preserved", addedCaptions: 0 } });
+      return 0;
+    }
+    var keys = ["overlay_items", "overlay_dynamic_captions"];
+    var parsed = {}, missing = false, invalid = [];
+    keys.forEach(function (key) {
+      if (entries[key] === undefined) { missing = true; return; }
+      try {
+        var value = typeof entries[key] === "string" ? JSON.parse(entries[key]) : entries[key];
+        if (!Array.isArray(value)) throw Error("schema");
+        if (key === "overlay_items" && !value.every(function (group) {
+          return record(group) && Array.isArray(group.items);
+        })) throw Error("groups");
+        parsed[key] = value;
+      } catch (_) { invalid.push(key); }
+    });
+    details.inputGroups = parsed.overlay_items ? parsed.overlay_items.length : 0;
+    details.inputDynamicTypes = parsed.overlay_dynamic_captions ? parsed.overlay_dynamic_captions.length : 0;
+    details.addedCaptions = 0;
+    if (invalid.length || missing) {
+      // Both lists are an atomic pair. Missing entries may use native app defaults.
+      // Preserve the original values (including whitespace and malformed JSON).
+      invalid.forEach(function (key) { WARNINGS.push(key); });
+      details.action = invalid.length ? "skipped_schema" : "missing_catalogue_preserved";
+      event("firebase", { overlays: details });
+      return 0;
+    }
+    var added = captionPatch(entries, { groups: parsed.overlay_items, types: parsed.overlay_dynamic_captions });
+    details.action = "merged";
+    details.addedCaptions = added;
+    event("firebase", { overlays: details });
+    return added;
+  }
+
+  function looksPatch(entries) {
+    // Opt-in experiment: these fields are observed in public configuration code,
+    // not an official API contract. Do not fabricate filter IDs or server access.
+    if (typeof $argument !== "string" || ($argument !== "looks-aura-frame" && $argument !== "looks-native")) {
+      event("firebase", { looks: { requested: false, action: "not_requested", generationVerified: false } });
+      return;
+    }
+    var key = "camera_filter_config";
+    var config = entries[key];
+    var details = { requested: true, serverConfigPresent: config !== undefined,
+      generationVerified: false };
+    function observe(value) {
+      if (value === undefined) return "absent";
+      if (value === true || value === "true") return "on";
+      if (value === false || value === "false") return "off";
+      return "other";
+    }
+    try {
+      if (typeof config === "string") config = JSON.parse(config);
+      if (config === undefined) config = {};
+      if (!record(config)) throw Error("schema");
+      details.inputFlags = {};
+      ["show_filter_button", "sheet_enabled", "allows_custom_filters"].forEach(function (field) {
+        details.inputFlags[field] = observe(config[field]);
+      });
+      details.sheetGroups = Array.isArray(config.sheet_filters) ? config.sheet_filters.length : 0;
+      details.pickerFilters = Array.isArray(config.picker_filters) ? config.picker_filters.length : 0;
+      mergeEntry(entries, key, { show_filter_button: true, sheet_enabled: true, allows_custom_filters: true });
+      details.action = "configuration_patched";
+    } catch (_) {
+      // Keep unknown/malformed schemas untouched, including their original bytes.
+      WARNINGS.push(key);
+      details.action = "skipped_schema";
+    }
+    // Fixed fields, classifications and counts only: no prompts, photos or IDs.
+    event("firebase", { looks: details });
+    log("looks: " + details.action + "; image generation not verified");
+  }
+
   function widgetPatch(entries) {
     var mode = typeof $argument === "string" ? $argument : "";
+    if (mode === "looks-aura-frame") mode = "aura-frame";
     var theme = { "aura-frame": "aura", "gold-frame": "gold", "rose-frame": "rose" }[mode];
     if (!theme) return "off";
     var changed = mergeEntry(entries, "widget_frame_event", {
@@ -511,24 +604,24 @@
       videoMaxDuration: VIDEO_SECONDS
     });
     patchMedia(entries, "camera_roll", {
-      gold_max_duration: UPLOAD_SECONDS,
-      goldMaxDuration: UPLOAD_SECONDS,
-      video_max_duration: UPLOAD_SECONDS,
-      videoMaxDuration: UPLOAD_SECONDS,
-      max_duration: UPLOAD_SECONDS,
-      maxDuration: UPLOAD_SECONDS,
-      trim_max_duration: UPLOAD_SECONDS,
-      trimMaxDuration: UPLOAD_SECONDS,
-      camera_roll_max_duration: UPLOAD_SECONDS,
-      camera_roll_video_max_duration: UPLOAD_SECONDS,
+      gold_max_duration: VIDEO_SECONDS,
+      goldMaxDuration: VIDEO_SECONDS,
+      video_max_duration: VIDEO_SECONDS,
+      videoMaxDuration: VIDEO_SECONDS,
+      max_duration: VIDEO_SECONDS,
+      maxDuration: VIDEO_SECONDS,
+      trim_max_duration: VIDEO_SECONDS,
+      trimMaxDuration: VIDEO_SECONDS,
+      camera_roll_max_duration: VIDEO_SECONDS,
+      camera_roll_video_max_duration: VIDEO_SECONDS,
       max_file_size: VIDEO_BYTES,
       max_upload_bytes: VIDEO_BYTES,
       max_size_bytes: VIDEO_BYTES
-    }, true);
+    });
     // Do not invent a video_config schema when the server does not provide one.
     patchMedia(entries, "video_config");
     ["camera_roll_video_config", "camera_roll_video_upload_config", "video_upload_config"].forEach(function (key) {
-      patchMedia(entries, key, null, true);
+      patchMedia(entries, key);
     });
     Object.assign(entries, {
       camera_roll_preview_enabled: "true",
@@ -536,30 +629,24 @@
       camera_roll_video_enabled: "true",
       camera_roll_video_upload_enabled: "true",
       internal_camera_roll_video_upload_enabled: "true",
+      longer_camera_roll_videos_enabled: "true",
       longer_video_enabled: "true",
       longer_videos_enabled: "true",
       video_sound_enabled: "true",
       microphone_enabled: "true",
       camera_microphone_enabled: "true",
-      // Legacy compatibility switch; its effect is not verified for the installed Locket build.
+      // Community-observed compatibility switch, not a verified Locket API contract.
       mh_mic_enabled_v16: "true",
       custom_widget_frames_enabled: "true",
-      captions_enabled: "true",
-      overlay_navigator_enabled: "true",
-      music_caption_enabled: "true",
-      music_caption_song_preview_enabled: "true",
-      link_caption_link_enabled: "true",
       profile_badge_visible: "true"
     });
     ["camera_roll_video_max_duration", "camera_roll_max_duration", "camera_roll_duration",
-      "video_trim_max_duration", "trim_max_duration", "video_upload_max_duration"].forEach(function (key) {
-      entries[key] = UPLOAD_SECONDS.toFixed(1);
-    });
-    ["max_video_duration", "video_max_duration", "gold_max_duration", "goldMaxDuration",
-      "longer_video_duration", "longer_videos_duration", "longer_video_max_duration",
-      "longer_videos_max_duration", "video_duration", "video_record_max_duration",
-      "video_record_duration", "max_recorded_duration", "recording_max_duration", "recording_duration",
-      "max_video_record_duration", "max_video_duration_seconds", "gold_max_video_length_seconds",
+      "max_video_duration", "video_max_duration", "video_trim_max_duration", "trim_max_duration",
+      "gold_max_duration", "goldMaxDuration", "longer_video_duration", "longer_videos_duration",
+      "longer_video_max_duration", "longer_videos_max_duration", "video_duration",
+      "video_record_max_duration", "video_record_duration", "max_recorded_duration",
+      "recording_max_duration", "recording_duration", "max_video_record_duration",
+      "max_video_duration_seconds", "video_upload_max_duration", "gold_max_video_length_seconds",
       "gold_video_length_limit", "longerVideoDuration", "video_maximum_duration",
       "camera_video_maximum_duration", "video_recording_maximum_duration"].forEach(function (key) {
       entries[key] = VIDEO_SECONDS.toFixed(1);
@@ -568,20 +655,19 @@
       "can_upload_video", "longerVideosEnabled"].forEach(function (key) {
       if (entries[key] !== undefined && /^(?:true|false)$/.test(String(entries[key]))) entries[key] = "true";
     });
-    ["camera_roll_video_max_size_bytes", "camera_roll_max_size_bytes", "video_upload_max_size_bytes"].forEach(function (key) {
+    ["max_file_size", "max_upload_bytes", "max_size_bytes", "video_max_size_bytes", "camera_roll_video_max_size_bytes"].forEach(function (key) {
       entries[key] = String(VIDEO_BYTES);
     });
-    if (entries.max_upload_bytes !== undefined) entries.max_upload_bytes = String(VIDEO_BYTES);
-    ["video_upload_max_size_mb", "camera_roll_max_size_mb"].forEach(function (key) {
-      entries[key] = "6";
+    ["video_upload_max_size_mb", "camera_roll_max_size_mb", "max_file_size_mb"].forEach(function (key) {
+      if (entries[key] !== undefined) entries[key] = "100";
     });
-    mergeEntry(entries, "overlays_v2_config", { suggestions_enabled: true });
-    var added = captionPatch(entries);
+    var added = overlayPatch(entries);
     var widget = widgetPatch(entries);
+    looksPatch(entries);
     payload.state = "UPDATE";
-    log("firebase: v" + VERSION + " config target=" + VIDEO_SECONDS + "s; upload-seconds=" + UPLOAD_SECONDS + "; upload-bytes=" + VIDEO_BYTES + "; captions=" + added + "; widget=" + widget);
+    log("firebase: v" + VERSION + " config target=" + VIDEO_SECONDS + "s; upload-bytes=" + VIDEO_BYTES + "; captions=" + added + "; widget=" + widget);
     event("firebase", { action: WARNINGS.length ? "partial" : "patched", responseAt: Date.now(), warnings: WARNINGS,
-      sentRecipe: VERSION, sentRecordingSeconds: VIDEO_SECONDS, sentUploadSeconds: UPLOAD_SECONDS, sentUploadBytes: VIDEO_BYTES, sentCaptions: added, widget: widget });
+      sentRecipe: VERSION, sentSeconds: VIDEO_SECONDS, sentUploadBytes: VIDEO_BYTES, sentCaptions: added, widget: widget });
     return true;
   }
 
@@ -628,8 +714,6 @@
     if (check && typeof $response === "undefined") {
       var service = check[1].toLowerCase() === "api.revenuecat.com" ? "https_revenuecat" : "https_firebase";
       event(service, { action: "https_hook_seen" });
-      if (/[?&]view=report(?:&|$)/.test(url)) return statusPage($request, true);
-      if (/[?&]view=status(?:&|$)/.test(url)) return statusPage($request, false);
       return { response: { status: 200, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store", "Content-Security-Policy": "default-src 'none'" },
         body: "<!doctype html><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><h1>Cuios · HTTPS check v" + VERSION + "</h1><p>Script đã nhận request HTTPS kiểm tra từ trình duyệt qua host này. Đây chưa phải bằng chứng Locket gửi request hoặc tính năng native hoạt động.</p><p><a href='http://cuios-status.invalid/status'>Quay lại trang trạng thái</a></p>" } };
     }
