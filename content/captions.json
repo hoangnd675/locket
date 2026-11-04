@@ -1,0 +1,1255 @@
+[
+  {
+    "id": "brand",
+    "section": "Cuios • Bản quyền",
+    "background": "brand",
+    "items": [
+      [
+        "certificate",
+        "t.me/tomqtx1111",
+        "👑"
+      ],
+      [
+        "copyright",
+        "Bản quyền Cuios",
+        "✨"
+      ],
+      [
+        "cun",
+        "Cưn🍤",
+        "🍤"
+      ],
+      [
+        "tom",
+        "tom11th5",
+        "💛"
+      ]
+    ]
+  },
+  {
+    "id": "tease",
+    "section": "Trêu đùa",
+    "background": "tease",
+    "items": [
+      [
+        "pretend",
+        "Thấy tớ rồi, đừng giả vờ",
+        "😏",
+        {
+          "style": "prism",
+          "image": "captions/v4.0.2/tease_pretend-f0846303d0.png",
+          "colors": [
+            "#0D201A",
+            "#2D503E"
+          ]
+        }
+      ],
+      [
+        "look",
+        "Nhìn gì, thích tớ à?",
+        "👀",
+        {
+          "style": "prism",
+          "image": "captions/v4.0.2/tease_look-b1be52f1aa.png",
+          "colors": [
+            "#100F30",
+            "#272350"
+          ]
+        }
+      ],
+      [
+        "shy",
+        "Thả tim đi, đừng ngại",
+        "💛",
+        {
+          "style": "silk",
+          "image": "captions/v4.0.2/tease_shy-afc122d686.png",
+          "colors": [
+            "#2C112F",
+            "#6A284E"
+          ]
+        }
+      ],
+      [
+        "remember",
+        "Xem ảnh hay đang nhớ tớ?",
+        "🤭",
+        {
+          "style": "galaxy",
+          "image": "captions/v4.0.2/tease_remember-e46956e6d9.png",
+          "colors": [
+            "#132642",
+            "#204E6F"
+          ]
+        }
+      ],
+      [
+        "flirt",
+        "Cười gì? Đang thả thính đấy",
+        "🎣",
+        {
+          "style": "ember",
+          "image": "captions/v4.0.2/tease_flirt-55fe53fb40.png",
+          "colors": [
+            "#271426",
+            "#5D3B4F"
+          ]
+        }
+      ],
+      [
+        "know",
+        "Tớ xinh, tớ biết rồi",
+        "💅",
+        {
+          "style": "bloom",
+          "image": "captions/v4.0.2/tease_know-84f2fe795a.png",
+          "colors": [
+            "#081D2C",
+            "#0F4D4C"
+          ]
+        }
+      ],
+      [
+        "selective",
+        "Độc thân có chọn lọc",
+        "😌",
+        {
+          "style": "galaxy",
+          "image": "captions/v4.0.2/tease_selective-58cab08195.png",
+          "colors": [
+            "#13192C",
+            "#314268"
+          ]
+        }
+      ],
+      [
+        "longlook",
+        "Cậu nhìn lâu là tớ ngại",
+        "🙈",
+        {
+          "style": "silk",
+          "image": "captions/v4.0.2/tease_longlook-a11fbff776.png",
+          "colors": [
+            "#0E1B2F",
+            "#1F4D6E"
+          ]
+        }
+      ],
+      [
+        "loveplease",
+        "Đã xem thì phải thương",
+        "🥺",
+        {
+          "style": "aurora",
+          "image": "captions/v4.0.2/tease_loveplease-1edeb63ff3.png",
+          "colors": [
+            "#102036",
+            "#1A3E5A"
+          ]
+        }
+      ],
+      [
+        "space",
+        "Tim cậu còn chỗ không?",
+        "💘",
+        {
+          "style": "bloom",
+          "image": "captions/v4.0.2/tease_space-3d02cc2d7c.png",
+          "colors": [
+            "#12243E",
+            "#193D59"
+          ]
+        }
+      ],
+      [
+        "fee",
+        "Ảnh miễn phí, nhớ tớ tính tiền",
+        "🤑",
+        {
+          "style": "sunset",
+          "image": "captions/v4.0.2/tease_fee-7d4a38e239.png",
+          "colors": [
+            "#13253F",
+            "#1A405C"
+          ]
+        }
+      ],
+      [
+        "behave",
+        "Đang ngoan, đừng chọc",
+        "😼",
+        {
+          "style": "aurora",
+          "image": "captions/v4.0.2/tease_behave-9c87deb363.png",
+          "colors": [
+            "#281527",
+            "#472C3D"
+          ]
+        }
+      ],
+      [
+        "price",
+        "Không chảnh, chỉ hơi đắt giá",
+        "👑",
+        {
+          "style": "prism",
+          "image": "captions/v4.0.2/tease_price-93ac92e098.png",
+          "colors": [
+            "#20120B",
+            "#57381C"
+          ]
+        }
+      ],
+      [
+        "early",
+        "Chưa yêu mà nhớ hơi nhiều",
+        "🫣",
+        {
+          "style": "hologram",
+          "image": "captions/v4.0.2/tease_early-31297fbbd8.png",
+          "colors": [
+            "#0E231C",
+            "#345B47"
+          ]
+        }
+      ],
+      [
+        "closer",
+        "Thích thì nhích lại đây",
+        "🫶",
+        {
+          "style": "neon",
+          "image": "captions/v4.0.2/tease_closer-5cc9f1b9f8.png",
+          "colors": [
+            "#071A27",
+            "#0D4445"
+          ]
+        }
+      ],
+      [
+        "reply",
+        "Không rep là tớ dỗi",
+        "😤",
+        {
+          "style": "bloom",
+          "image": "captions/v4.0.2/tease_reply-32a8659a82.png",
+          "colors": [
+            "#100F2F",
+            "#322C63"
+          ]
+        }
+      ],
+      [
+        "attention",
+        "Xin vía được cậu để ý",
+        "✨",
+        {
+          "style": "aurora",
+          "image": "captions/v4.0.2/tease_attention-5f4b7508c2.png",
+          "colors": [
+            "#28170E",
+            "#51341A"
+          ]
+        }
+      ],
+      [
+        "order",
+        "Chốt đơn một người thương",
+        "🛒",
+        {
+          "style": "sunset",
+          "image": "captions/v4.0.2/tease_order-d36026ff6c.png",
+          "colors": [
+            "#15143E",
+            "#352E68"
+          ]
+        }
+      ],
+      [
+        "secret",
+        "Nhìn vậy thôi, mê cậu lắm",
+        "🤫",
+        {
+          "style": "aurora",
+          "image": "captions/v4.0.2/tease_secret-b05c31f9c6.png",
+          "colors": [
+            "#071A29",
+            "#0F4E4D"
+          ]
+        }
+      ],
+      [
+        "standstill",
+        "Đứng yên, tớ thả thính",
+        "🎯",
+        {
+          "style": "bloom",
+          "image": "captions/v4.0.2/tease_standstill-0ccc54c5db.png",
+          "colors": [
+            "#102126",
+            "#204446"
+          ]
+        }
+      ],
+      [
+        "cute",
+        "Xinh thế này ai chịu nổi",
+        "😎",
+        {
+          "style": "sunset",
+          "image": "captions/v4.0.2/tease_cute-793e004adc.png",
+          "colors": [
+            "#132D25",
+            "#2B4D3C"
+          ]
+        }
+      ],
+      [
+        "seen",
+        "Xem rồi thì nhớ tớ đi",
+        "👀",
+        {
+          "style": "ocean",
+          "image": "captions/v4.0.2/tease_seen-b538b442f7.png",
+          "colors": [
+            "#0F0F2E",
+            "#272350"
+          ]
+        }
+      ],
+      [
+        "crush",
+        "Đẹp vậy mà vẫn độc thân",
+        "😌",
+        {
+          "style": "liquid",
+          "image": "captions/v4.0.2/tease_crush-2af64e8a2c.png",
+          "colors": [
+            "#2A180F",
+            "#5F3D1F"
+          ]
+        }
+      ],
+      [
+        "heart",
+        "Lỡ xem là phải thả tim",
+        "😏",
+        {
+          "style": "liquid",
+          "image": "captions/v4.0.2/tease_heart-7dbc4a025d.png",
+          "colors": [
+            "#1D1134",
+            "#492C66"
+          ]
+        }
+      ],
+      [
+        "busy",
+        "Bận đáng yêu, lát nhắn",
+        "💅",
+        {
+          "style": "ocean",
+          "image": "captions/v4.0.2/tease_busy-9d8e692d0d.png",
+          "colors": [
+            "#143128",
+            "#2A4A3A"
+          ]
+        }
+      ],
+      [
+        "snack",
+        "Không giận, chỉ thiếu trà sữa",
+        "🧋",
+        {
+          "style": "hologram",
+          "image": "captions/v4.0.2/tease_snack-427794f461.png",
+          "colors": [
+            "#13253F",
+            "#1D4766"
+          ]
+        }
+      ],
+      [
+        "signal",
+        "Phát tín hiệu: nhớ bạn",
+        "📡",
+        {
+          "style": "aurora",
+          "image": "captions/v4.0.2/tease_signal-c3538be808.png",
+          "colors": [
+            "#2D182C",
+            "#543548"
+          ]
+        }
+      ],
+      [
+        "sleep",
+        "Online đó, nhưng buồn ngủ",
+        "😴",
+        {
+          "style": "liquid",
+          "image": "captions/v4.0.2/tease_sleep-b1b4b104db.png",
+          "colors": [
+            "#1B1C36",
+            "#32354F"
+          ]
+        }
+      ],
+      [
+        "model",
+        "Camera thường, người phi thường",
+        "🤳",
+        {
+          "style": "cyber",
+          "image": "captions/v4.0.2/tease_model-3530c6174f.png",
+          "colors": [
+            "#23143D",
+            "#492C67"
+          ]
+        }
+      ],
+      [
+        "notice",
+        "Thông báo: cần được cưng",
+        "📣",
+        {
+          "style": "galaxy",
+          "image": "captions/v4.0.2/tease_notice-478808ea82.png",
+          "colors": [
+            "#0D1A2D",
+            "#1F4D6E"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "id": "humor",
+    "section": "Hài hước",
+    "background": "joy",
+    "items": [
+      [
+        "wallet",
+        "Ví mỏng, tâm hồn phú hộ",
+        "💸",
+        {
+          "style": "bloom",
+          "image": "captions/v4.0.2/humor_wallet-feaaa2472a.png",
+          "colors": [
+            "#28161A",
+            "#4B2726"
+          ]
+        }
+      ],
+      [
+        "deadline",
+        "Deadline dí, tớ vẫn lì",
+        "🫠",
+        {
+          "style": "sunset",
+          "image": "captions/v4.0.2/humor_deadline-c0a4555844.png",
+          "colors": [
+            "#143128",
+            "#325744"
+          ]
+        }
+      ],
+      [
+        "attitude",
+        "Hết tiền nhưng còn thần thái",
+        "😎",
+        {
+          "style": "prism",
+          "image": "captions/v4.0.2/humor_attitude-cad748e545.png",
+          "colors": [
+            "#1B0F2F",
+            "#4D2E6C"
+          ]
+        }
+      ],
+      [
+        "awake",
+        "Dậy rồi, hồn chưa tới",
+        "👻",
+        {
+          "style": "prism",
+          "image": "captions/v4.0.2/humor_awake-a37aec1770.png",
+          "colors": [
+            "#181930",
+            "#3F4462"
+          ]
+        }
+      ],
+      [
+        "natural",
+        "Đẹp tự nhiên, lười tự phát",
+        "🦥",
+        {
+          "style": "ember",
+          "image": "captions/v4.0.2/humor_natural-c8445ca789.png",
+          "colors": [
+            "#12262B",
+            "#204547"
+          ]
+        }
+      ],
+      [
+        "maintenance",
+        "Não đang bảo trì",
+        "🧠",
+        {
+          "style": "aurora",
+          "image": "captions/v4.0.2/humor_maintenance-7de1434483.png",
+          "colors": [
+            "#250E28",
+            "#562041"
+          ]
+        }
+      ],
+      [
+        "eatfirst",
+        "Ăn trước, tính sau",
+        "🍜",
+        {
+          "style": "sunset",
+          "image": "captions/v4.0.2/humor_eatfirst-7da6f87d0b.png",
+          "colors": [
+            "#0F1D33",
+            "#1C4463"
+          ]
+        }
+      ],
+      [
+        "salary",
+        "Lương chưa về, đơn đã tới",
+        "📦",
+        {
+          "style": "aurora",
+          "image": "captions/v4.0.2/humor_salary-540a1e85e4.png",
+          "colors": [
+            "#111032",
+            "#2C2758"
+          ]
+        }
+      ],
+      [
+        "rest",
+        "Chăm chỉ nghỉ ngơi",
+        "🛌",
+        {
+          "style": "silk",
+          "image": "captions/v4.0.2/humor_rest-61d8a54865.png",
+          "colors": [
+            "#23140C",
+            "#59391D"
+          ]
+        }
+      ],
+      [
+        "hungry",
+        "Bụng đói, miệng vẫn cười",
+        "😋",
+        {
+          "style": "cyber",
+          "image": "captions/v4.0.2/humor_hungry-4698db8060.png",
+          "colors": [
+            "#141B30",
+            "#2F3F63"
+          ]
+        }
+      ],
+      [
+        "sleepy",
+        "Chưa giàu nhưng rất buồn ngủ",
+        "😴",
+        {
+          "style": "liquid",
+          "image": "captions/v4.0.2/humor_sleepy-166ae52e3a.png",
+          "colors": [
+            "#2B190F",
+            "#4E3219"
+          ]
+        }
+      ],
+      [
+        "lag",
+        "Mặt tỉnh, đầu đang lag",
+        "🌀",
+        {
+          "style": "neon",
+          "image": "captions/v4.0.2/humor_lag-bd502f912f.png",
+          "colors": [
+            "#311335",
+            "#552041"
+          ]
+        }
+      ],
+      [
+        "subject",
+        "Giỏi nhất môn nằm nghỉ",
+        "🏆",
+        {
+          "style": "galaxy",
+          "image": "captions/v4.0.2/humor_subject-f05e756e10.png",
+          "colors": [
+            "#143027",
+            "#294A3A"
+          ]
+        }
+      ],
+      [
+        "alarm",
+        "Sống lỗi với báo thức",
+        "⏰",
+        {
+          "style": "ocean",
+          "image": "captions/v4.0.2/humor_alarm-a5edf8a2f8.png",
+          "colors": [
+            "#151440",
+            "#272351"
+          ]
+        }
+      ],
+      [
+        "gossip",
+        "Pin yếu mà vẫn hóng",
+        "🍿",
+        {
+          "style": "silk",
+          "image": "captions/v4.0.2/humor_gossip-2f05829d4b.png",
+          "colors": [
+            "#17182E",
+            "#30344C"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "id": "love",
+    "section": "Tình yêu",
+    "background": "love",
+    "items": [
+      [
+        "choose",
+        "Tim tớ chọn cậu rồi",
+        "💗",
+        {
+          "style": "ocean",
+          "image": "captions/v4.0.2/love_choose-d96dce875d.png",
+          "colors": [
+            "#341C22",
+            "#5D312F"
+          ]
+        }
+      ],
+      [
+        "withyou",
+        "Đi đâu cũng muốn có cậu",
+        "🫶",
+        {
+          "style": "cyber",
+          "image": "captions/v4.0.2/love_withyou-82c81d9062.png",
+          "colors": [
+            "#29102C",
+            "#612448"
+          ]
+        }
+      ],
+      [
+        "soft",
+        "Gặp cậu là ngày đẹp",
+        "🌷",
+        {
+          "style": "prism",
+          "image": "captions/v4.0.2/love_soft-4a087f68fa.png",
+          "colors": [
+            "#2A1629",
+            "#674157"
+          ]
+        }
+      ],
+      [
+        "little",
+        "Thương cậu thêm một chút",
+        "💕",
+        {
+          "style": "cyber",
+          "image": "captions/v4.0.2/love_little-e322d0fa6d.png",
+          "colors": [
+            "#081E2F",
+            "#10504F"
+          ]
+        }
+      ],
+      [
+        "home",
+        "Bên cậu là thấy nhà",
+        "🏡",
+        {
+          "style": "neon",
+          "image": "captions/v4.0.2/love_home-cc1a3d73ef.png",
+          "colors": [
+            "#142A30",
+            "#22494A"
+          ]
+        }
+      ],
+      [
+        "hug",
+        "Gửi cậu một cái ôm",
+        "🤍",
+        {
+          "style": "bloom",
+          "image": "captions/v4.0.2/love_hug-49993c3c36.png",
+          "colors": [
+            "#1B1C36",
+            "#383C57"
+          ]
+        }
+      ],
+      [
+        "miss",
+        "Nhớ cậu, không cần lý do",
+        "💌",
+        {
+          "style": "liquid",
+          "image": "captions/v4.0.2/love_miss-24845da925.png",
+          "colors": [
+            "#071826",
+            "#105352"
+          ]
+        }
+      ],
+      [
+        "smile",
+        "Cậu cười là tớ thua",
+        "🥰",
+        {
+          "style": "ember",
+          "image": "captions/v4.0.2/love_smile-562e28ceee.png",
+          "colors": [
+            "#162D33",
+            "#1F4243"
+          ]
+        }
+      ],
+      [
+        "wait",
+        "Chừa một chỗ cạnh tớ nhé",
+        "💞",
+        {
+          "style": "hologram",
+          "image": "captions/v4.0.2/love_wait-a62057abc9.png",
+          "colors": [
+            "#141A2F",
+            "#314267"
+          ]
+        }
+      ],
+      [
+        "simple",
+        "Thích cậu, thế thôi",
+        "💘",
+        {
+          "style": "neon",
+          "image": "captions/v4.0.2/love_simple-bac6bedf2d.png",
+          "colors": [
+            "#081D2D",
+            "#115A58"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "id": "joy",
+    "section": "Vui vẻ",
+    "background": "joy",
+    "items": [
+      [
+        "enough",
+        "Hôm nay vui vừa đủ",
+        "🌞",
+        {
+          "style": "cyber",
+          "image": "captions/v4.0.2/joy_enough-dab80fd762.png",
+          "colors": [
+            "#2A1629",
+            "#664056"
+          ]
+        }
+      ],
+      [
+        "vitamin",
+        "Nạp một chút vitamin cười",
+        "🍊",
+        {
+          "style": "galaxy",
+          "image": "captions/v4.0.2/joy_vitamin-050193247d.png",
+          "colors": [
+            "#12233C",
+            "#173750"
+          ]
+        }
+      ],
+      [
+        "happy",
+        "Đang bận yêu đời",
+        "🌈",
+        {
+          "style": "liquid",
+          "image": "captions/v4.0.2/joy_happy-8b3b65a09e.png",
+          "colors": [
+            "#23143D",
+            "#3F265A"
+          ]
+        }
+      ],
+      [
+        "broadcast",
+        "Niềm vui đang phát sóng",
+        "📻",
+        {
+          "style": "bloom",
+          "image": "captions/v4.0.2/joy_broadcast-d016470dd7.png",
+          "colors": [
+            "#311B1F",
+            "#613330"
+          ]
+        }
+      ],
+      [
+        "sun",
+        "Mang nắng về nhà",
+        "☀️",
+        {
+          "style": "prism",
+          "image": "captions/v4.0.2/joy_sun-308e201e3c.png",
+          "colors": [
+            "#0A2437",
+            "#105453"
+          ]
+        }
+      ],
+      [
+        "luck",
+        "May mắn ghé chơi rồi",
+        "🍀",
+        {
+          "style": "ember",
+          "image": "captions/v4.0.2/joy_luck-023168ccbe.png",
+          "colors": [
+            "#100F2F",
+            "#282352"
+          ]
+        }
+      ],
+      [
+        "photo",
+        "Chụp vội một ngày xinh",
+        "📸",
+        {
+          "style": "ocean",
+          "image": "captions/v4.0.2/joy_photo-64672706c8.png",
+          "colors": [
+            "#261643",
+            "#472B65"
+          ]
+        }
+      ],
+      [
+        "weekend",
+        "Cuối tuần nằm trong tim",
+        "🎈",
+        {
+          "style": "ember",
+          "image": "captions/v4.0.2/joy_weekend-f1153a3a0d.png",
+          "colors": [
+            "#311B1F",
+            "#6C3935"
+          ]
+        }
+      ],
+      [
+        "save",
+        "Một ngày đáng lưu lại",
+        "✨",
+        {
+          "style": "liquid",
+          "image": "captions/v4.0.2/joy_save-4d16cb7762.png",
+          "colors": [
+            "#15143F",
+            "#352F68"
+          ]
+        }
+      ],
+      [
+        "laugh",
+        "Cười lên, ảnh đang đẹp",
+        "😆",
+        {
+          "style": "aurora",
+          "image": "captions/v4.0.2/joy_laugh-a8754e46e7.png",
+          "colors": [
+            "#0E221B",
+            "#2D4F3E"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "id": "mood",
+    "section": "Cảm xúc",
+    "background": "mood",
+    "items": [
+      [
+        "rain",
+        "Hôm nay lòng hơi mưa",
+        "🌧️",
+        {
+          "style": "sunset",
+          "image": "captions/v4.0.2/mood_rain-4a654b1ae3.png",
+          "colors": [
+            "#250E28",
+            "#5D2346"
+          ]
+        }
+      ],
+      [
+        "quiet",
+        "Cho tớ yên một chút",
+        "🌙",
+        {
+          "style": "silk",
+          "image": "captions/v4.0.2/mood_quiet-28172e70c4.png",
+          "colors": [
+            "#29102C",
+            "#511E3E"
+          ]
+        }
+      ],
+      [
+        "thought",
+        "Có vài điều chưa nói",
+        "💭",
+        {
+          "style": "ember",
+          "image": "captions/v4.0.2/mood_thought-6944e9a297.png",
+          "colors": [
+            "#111032",
+            "#272250"
+          ]
+        }
+      ],
+      [
+        "slow",
+        "Đang học cách chậm lại",
+        "🍃",
+        {
+          "style": "cyber",
+          "image": "captions/v4.0.2/mood_slow-a216d084c2.png",
+          "colors": [
+            "#122C24",
+            "#254334"
+          ]
+        }
+      ],
+      [
+        "hug",
+        "Một cái ôm là đủ",
+        "🫂",
+        {
+          "style": "liquid",
+          "image": "captions/v4.0.2/mood_hug-e4469b03ac.png",
+          "colors": [
+            "#15162A",
+            "#3B3F5B"
+          ]
+        }
+      ],
+      [
+        "tired",
+        "Hết pin, cần được thương",
+        "🪫",
+        {
+          "style": "ocean",
+          "image": "captions/v4.0.2/mood_tired-15625d5b32.png",
+          "colors": [
+            "#2A102D",
+            "#4E1D3C"
+          ]
+        }
+      ],
+      [
+        "okay",
+        "Không ổn cũng không sao",
+        "🤍",
+        {
+          "style": "neon",
+          "image": "captions/v4.0.2/mood_okay-f38da52d88.png",
+          "colors": [
+            "#351D22",
+            "#613330"
+          ]
+        }
+      ],
+      [
+        "hope",
+        "Ngày mai mình thử lại",
+        "🌅",
+        {
+          "style": "hologram",
+          "image": "captions/v4.0.2/mood_hope-245a949bbd.png",
+          "colors": [
+            "#121136",
+            "#302A60"
+          ]
+        }
+      ],
+      [
+        "memory",
+        "Có người nằm trong ký ức",
+        "🎞️",
+        {
+          "style": "neon",
+          "image": "captions/v4.0.2/mood_memory-23b05b34c1.png",
+          "colors": [
+            "#112138",
+            "#173750"
+          ]
+        }
+      ],
+      [
+        "feeling",
+        "Chẳng biết gọi tên cảm xúc",
+        "🫧",
+        {
+          "style": "sunset",
+          "image": "captions/v4.0.2/mood_feeling-4d86f30d50.png",
+          "colors": [
+            "#281745",
+            "#492C66"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "id": "friends",
+    "section": "Bạn bè",
+    "background": "love",
+    "items": [
+      [
+        "karma",
+        "Bạn thân, nghiệp ai nấy giữ",
+        "🤝",
+        {
+          "style": "neon",
+          "image": "captions/v4.0.2/friends_karma-a5bfb0375d.png",
+          "colors": [
+            "#0F0E2D",
+            "#302B60"
+          ]
+        }
+      ],
+      [
+        "stories",
+        "Có bạn là có chuyện kể",
+        "💬",
+        {
+          "style": "galaxy",
+          "image": "captions/v4.0.2/friends_stories-587481d12e.png",
+          "colors": [
+            "#251324",
+            "#563649"
+          ]
+        }
+      ],
+      [
+        "together",
+        "Đi cùng nhau mới vui",
+        "🎈",
+        {
+          "style": "prism",
+          "image": "captions/v4.0.2/friends_together-20f945b5cd.png",
+          "colors": [
+            "#2D1130",
+            "#4D1D3B"
+          ]
+        }
+      ],
+      [
+        "call",
+        "Bạn gọi, tớ có mặt",
+        "🫂",
+        {
+          "style": "silk",
+          "image": "captions/v4.0.2/friends_call-0b0e3e6484.png",
+          "colors": [
+            "#29161A",
+            "#4C2827"
+          ]
+        }
+      ],
+      [
+        "snacks",
+        "Đồng đội hệ ăn vặt",
+        "🍟",
+        {
+          "style": "galaxy",
+          "image": "captions/v4.0.2/friends_snacks-cf1c4b4c96.png",
+          "colors": [
+            "#13253F",
+            "#183A55"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "id": "daily",
+    "section": "Đời thường",
+    "background": "mood",
+    "items": [
+      [
+        "coffee",
+        "Cà phê trước, thế giới sau",
+        "☕",
+        {
+          "style": "hologram",
+          "image": "captions/v4.0.2/daily_coffee-db423704d1.png",
+          "colors": [
+            "#0F251E",
+            "#2B4D3C"
+          ]
+        }
+      ],
+      [
+        "study",
+        "Học một chút, mơ thật nhiều",
+        "📚",
+        {
+          "style": "ember",
+          "image": "captions/v4.0.2/daily_study-be2c48e577.png",
+          "colors": [
+            "#2C172B",
+            "#643F55"
+          ]
+        }
+      ],
+      [
+        "offwork",
+        "Tan làm là hồi sinh",
+        "🌅",
+        {
+          "style": "hologram",
+          "image": "captions/v4.0.2/daily_offwork-feab508772.png",
+          "colors": [
+            "#261642",
+            "#382251"
+          ]
+        }
+      ],
+      [
+        "anywhere",
+        "Đi đâu cũng được, miễn vui",
+        "🛵",
+        {
+          "style": "galaxy",
+          "image": "captions/v4.0.2/daily_anywhere-fe30e6bbd7.png",
+          "colors": [
+            "#161440",
+            "#26224E"
+          ]
+        }
+      ],
+      [
+        "ordinary",
+        "Ngày bình thường, ảnh xinh",
+        "📸",
+        {
+          "style": "neon",
+          "image": "captions/v4.0.2/daily_ordinary-1aa76b7bc0.png",
+          "colors": [
+            "#143027",
+            "#2D503E"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "id": "confidence",
+    "section": "Tự tin · Yêu đời",
+    "background": "tease",
+    "items": [
+      [
+        "filter",
+        "Tự tin là bộ lọc đẹp nhất",
+        "✨",
+        {
+          "style": "ocean",
+          "image": "captions/v4.0.2/confidence_filter-6703fe6e88.png",
+          "colors": [
+            "#171F37",
+            "#263350"
+          ]
+        }
+      ],
+      [
+        "choice",
+        "Tớ chọn vui, cậu chọn gì?",
+        "🌞",
+        {
+          "style": "cyber",
+          "image": "captions/v4.0.2/confidence_choice-1cf87211dd.png",
+          "colors": [
+            "#142642",
+            "#173852"
+          ]
+        }
+      ],
+      [
+        "version",
+        "Phiên bản này hơi đáng yêu",
+        "💖",
+        {
+          "style": "hologram",
+          "image": "captions/v4.0.2/confidence_version-a5da7658e0.png",
+          "colors": [
+            "#1D1032",
+            "#43285F"
+          ]
+        }
+      ],
+      [
+        "myway",
+        "Đẹp theo cách của tớ",
+        "🌷",
+        {
+          "style": "hologram",
+          "image": "captions/v4.0.2/confidence_myway-27022b568d.png",
+          "colors": [
+            "#1B1C36",
+            "#3D425F"
+          ]
+        }
+      ],
+      [
+        "imperfect",
+        "Không hoàn hảo, vẫn rất xịn",
+        "🌟",
+        {
+          "style": "silk",
+          "image": "captions/v4.0.2/confidence_imperfect-dcb30f9f89.png",
+          "colors": [
+            "#321B20",
+            "#6B3835"
+          ]
+        }
+      ]
+    ]
+  }
+]

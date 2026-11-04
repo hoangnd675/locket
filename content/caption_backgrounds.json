@@ -1,0 +1,998 @@
+{
+  "version": "4.0.2",
+  "seed": "cuios-94-art-v1",
+  "width": 768,
+  "height": 256,
+  "items": [
+    {
+      "id": "cuios_tease_pretend",
+      "style": "prism",
+      "image": "captions/v4.0.2/tease_pretend-f0846303d0.png",
+      "colors": [
+        "#0D201A",
+        "#2D503E"
+      ],
+      "sha256": "f0846303d001faac8de87340533eeb0d64f0e37069477fb2ef81a4c0e6b3a4e6",
+      "bytes": 41063
+    },
+    {
+      "id": "cuios_tease_look",
+      "style": "prism",
+      "image": "captions/v4.0.2/tease_look-b1be52f1aa.png",
+      "colors": [
+        "#100F30",
+        "#272350"
+      ],
+      "sha256": "b1be52f1aa32a64d4ce125682727249e08bc0e0d1c8643ee30e3a8afded91ec9",
+      "bytes": 34210
+    },
+    {
+      "id": "cuios_tease_shy",
+      "style": "silk",
+      "image": "captions/v4.0.2/tease_shy-afc122d686.png",
+      "colors": [
+        "#2C112F",
+        "#6A284E"
+      ],
+      "sha256": "afc122d6863dfd52939856f3104c853be99ae06c2d8418c98f891f11da0a0191",
+      "bytes": 38142
+    },
+    {
+      "id": "cuios_tease_remember",
+      "style": "galaxy",
+      "image": "captions/v4.0.2/tease_remember-e46956e6d9.png",
+      "colors": [
+        "#132642",
+        "#204E6F"
+      ],
+      "sha256": "e46956e6d9d0b888b8b2ddeeb9c2d7b025faa81387cb0bff4565cf840df653df",
+      "bytes": 40302
+    },
+    {
+      "id": "cuios_tease_flirt",
+      "style": "ember",
+      "image": "captions/v4.0.2/tease_flirt-55fe53fb40.png",
+      "colors": [
+        "#271426",
+        "#5D3B4F"
+      ],
+      "sha256": "55fe53fb40d88229ec3ccdb8f7386caecc2fb2762b1a42f7925f62485fb78cb8",
+      "bytes": 34274
+    },
+    {
+      "id": "cuios_tease_know",
+      "style": "bloom",
+      "image": "captions/v4.0.2/tease_know-84f2fe795a.png",
+      "colors": [
+        "#081D2C",
+        "#0F4D4C"
+      ],
+      "sha256": "84f2fe795a7fea53e3d891f883d1bee6ab25bc81d376190594977d7365d7c757",
+      "bytes": 30453
+    },
+    {
+      "id": "cuios_tease_selective",
+      "style": "galaxy",
+      "image": "captions/v4.0.2/tease_selective-58cab08195.png",
+      "colors": [
+        "#13192C",
+        "#314268"
+      ],
+      "sha256": "58cab081956d441df1c0a8cc2e9f78daa08c8008d27f4bfd81eabf59abac3996",
+      "bytes": 39690
+    },
+    {
+      "id": "cuios_tease_longlook",
+      "style": "silk",
+      "image": "captions/v4.0.2/tease_longlook-a11fbff776.png",
+      "colors": [
+        "#0E1B2F",
+        "#1F4D6E"
+      ],
+      "sha256": "a11fbff776cb82e9c49d3d8ca24d669e3ed91cb1f34b1cb4a1ec8b253c5c810d",
+      "bytes": 42492
+    },
+    {
+      "id": "cuios_tease_loveplease",
+      "style": "aurora",
+      "image": "captions/v4.0.2/tease_loveplease-1edeb63ff3.png",
+      "colors": [
+        "#102036",
+        "#1A3E5A"
+      ],
+      "sha256": "1edeb63ff367d841c3af297a46c7c6fdde392973947817aba24501e250f5bc05",
+      "bytes": 28242
+    },
+    {
+      "id": "cuios_tease_space",
+      "style": "bloom",
+      "image": "captions/v4.0.2/tease_space-3d02cc2d7c.png",
+      "colors": [
+        "#12243E",
+        "#193D59"
+      ],
+      "sha256": "3d02cc2d7c2c7e5207d3f3efa93acf72e81857aceaaf178c45cbd82fb97eb05e",
+      "bytes": 31939
+    },
+    {
+      "id": "cuios_tease_fee",
+      "style": "sunset",
+      "image": "captions/v4.0.2/tease_fee-7d4a38e239.png",
+      "colors": [
+        "#13253F",
+        "#1A405C"
+      ],
+      "sha256": "7d4a38e23993c2d0319da013fad197358d156da1ec759bf9f52aa18eb205762c",
+      "bytes": 23009
+    },
+    {
+      "id": "cuios_tease_behave",
+      "style": "aurora",
+      "image": "captions/v4.0.2/tease_behave-9c87deb363.png",
+      "colors": [
+        "#281527",
+        "#472C3D"
+      ],
+      "sha256": "9c87deb3633ad7f5f03ea7597821fd484447f29d74cc9b4d282a2f63fd030487",
+      "bytes": 25833
+    },
+    {
+      "id": "cuios_tease_price",
+      "style": "prism",
+      "image": "captions/v4.0.2/tease_price-93ac92e098.png",
+      "colors": [
+        "#20120B",
+        "#57381C"
+      ],
+      "sha256": "93ac92e09850a35c81ae464f61a36a398f8d70135fcfa8e6b350ae612f14087a",
+      "bytes": 39813
+    },
+    {
+      "id": "cuios_tease_early",
+      "style": "hologram",
+      "image": "captions/v4.0.2/tease_early-31297fbbd8.png",
+      "colors": [
+        "#0E231C",
+        "#345B47"
+      ],
+      "sha256": "31297fbbd8b85f732f082259b06146293543887808043e2b32f52a5ceb887901",
+      "bytes": 53273
+    },
+    {
+      "id": "cuios_tease_closer",
+      "style": "neon",
+      "image": "captions/v4.0.2/tease_closer-5cc9f1b9f8.png",
+      "colors": [
+        "#071A27",
+        "#0D4445"
+      ],
+      "sha256": "5cc9f1b9f875a5bdb66d0c7dbdd9ec3dca07e703420267c6372dc1cb92cea3f6",
+      "bytes": 30660
+    },
+    {
+      "id": "cuios_tease_reply",
+      "style": "bloom",
+      "image": "captions/v4.0.2/tease_reply-32a8659a82.png",
+      "colors": [
+        "#100F2F",
+        "#322C63"
+      ],
+      "sha256": "32a8659a82f25ecb17e50f6b144172e1d9360768ad1f9b22cb3acfbc941eb2f4",
+      "bytes": 30243
+    },
+    {
+      "id": "cuios_tease_attention",
+      "style": "aurora",
+      "image": "captions/v4.0.2/tease_attention-5f4b7508c2.png",
+      "colors": [
+        "#28170E",
+        "#51341A"
+      ],
+      "sha256": "5f4b7508c2ab12456df10e78b4bded8c7af6996b5fde63d68a649c1265af1a3f",
+      "bytes": 26198
+    },
+    {
+      "id": "cuios_tease_order",
+      "style": "sunset",
+      "image": "captions/v4.0.2/tease_order-d36026ff6c.png",
+      "colors": [
+        "#15143E",
+        "#352E68"
+      ],
+      "sha256": "d36026ff6c9a33e6b4e17464c03c532bdab4290655a84002551f8acb913df66a",
+      "bytes": 22447
+    },
+    {
+      "id": "cuios_tease_secret",
+      "style": "aurora",
+      "image": "captions/v4.0.2/tease_secret-b05c31f9c6.png",
+      "colors": [
+        "#071A29",
+        "#0F4E4D"
+      ],
+      "sha256": "b05c31f9c667cc2b9b71931e5fcb3788b919ae01ac32b1451a3209884daace70",
+      "bytes": 25176
+    },
+    {
+      "id": "cuios_tease_standstill",
+      "style": "bloom",
+      "image": "captions/v4.0.2/tease_standstill-0ccc54c5db.png",
+      "colors": [
+        "#102126",
+        "#204446"
+      ],
+      "sha256": "0ccc54c5dbd0e1c9478f17fe66984a09873cbd6e189dcf3fc068fa2c7a5ecef7",
+      "bytes": 33759
+    },
+    {
+      "id": "cuios_tease_cute",
+      "style": "sunset",
+      "image": "captions/v4.0.2/tease_cute-793e004adc.png",
+      "colors": [
+        "#132D25",
+        "#2B4D3C"
+      ],
+      "sha256": "793e004adcc7a79716aa8d14c46b8616bb16fe323245d44fba0553a937ef4095",
+      "bytes": 27040
+    },
+    {
+      "id": "cuios_tease_seen",
+      "style": "ocean",
+      "image": "captions/v4.0.2/tease_seen-b538b442f7.png",
+      "colors": [
+        "#0F0F2E",
+        "#272350"
+      ],
+      "sha256": "b538b442f723a82cb4ec8c0aae5e3178a120b5078e020ff7529424ed953fc156",
+      "bytes": 57426
+    },
+    {
+      "id": "cuios_tease_crush",
+      "style": "liquid",
+      "image": "captions/v4.0.2/tease_crush-2af64e8a2c.png",
+      "colors": [
+        "#2A180F",
+        "#5F3D1F"
+      ],
+      "sha256": "2af64e8a2c13151468396fbc5206f6f2c87ebe1dc2489e896f228410d033b19d",
+      "bytes": 45874
+    },
+    {
+      "id": "cuios_tease_heart",
+      "style": "liquid",
+      "image": "captions/v4.0.2/tease_heart-7dbc4a025d.png",
+      "colors": [
+        "#1D1134",
+        "#492C66"
+      ],
+      "sha256": "7dbc4a025d3123ae4ddf5124d9fd45ab2a2066a37f7eac256fd8cadf71c82e03",
+      "bytes": 46072
+    },
+    {
+      "id": "cuios_tease_busy",
+      "style": "ocean",
+      "image": "captions/v4.0.2/tease_busy-9d8e692d0d.png",
+      "colors": [
+        "#143128",
+        "#2A4A3A"
+      ],
+      "sha256": "9d8e692d0d09fbd51452466ec5cce8a75d861c5165bbcbbf0ef36491d3b8edc1",
+      "bytes": 63265
+    },
+    {
+      "id": "cuios_tease_snack",
+      "style": "hologram",
+      "image": "captions/v4.0.2/tease_snack-427794f461.png",
+      "colors": [
+        "#13253F",
+        "#1D4766"
+      ],
+      "sha256": "427794f4618ae1936d0b6f1addc4739086af49bff0cb647127f0ec2ccab50e24",
+      "bytes": 51395
+    },
+    {
+      "id": "cuios_tease_signal",
+      "style": "aurora",
+      "image": "captions/v4.0.2/tease_signal-c3538be808.png",
+      "colors": [
+        "#2D182C",
+        "#543548"
+      ],
+      "sha256": "c3538be8085adbf38004fdca19d94068757645e566ecc7a1e6debfce9da91203",
+      "bytes": 29465
+    },
+    {
+      "id": "cuios_tease_sleep",
+      "style": "liquid",
+      "image": "captions/v4.0.2/tease_sleep-b1b4b104db.png",
+      "colors": [
+        "#1B1C36",
+        "#32354F"
+      ],
+      "sha256": "b1b4b104dbe23bbcd62f74d32b51c546809a160e56fedd97b87c746e37eee6cf",
+      "bytes": 47973
+    },
+    {
+      "id": "cuios_tease_model",
+      "style": "cyber",
+      "image": "captions/v4.0.2/tease_model-3530c6174f.png",
+      "colors": [
+        "#23143D",
+        "#492C67"
+      ],
+      "sha256": "3530c6174f0a9ff66403e57a5b54779ab1590f38373634c61d53a9ec267db808",
+      "bytes": 37197
+    },
+    {
+      "id": "cuios_tease_notice",
+      "style": "galaxy",
+      "image": "captions/v4.0.2/tease_notice-478808ea82.png",
+      "colors": [
+        "#0D1A2D",
+        "#1F4D6E"
+      ],
+      "sha256": "478808ea82114e518d149f3b340d856b052464b6879c56ea7baced273554ae61",
+      "bytes": 39752
+    },
+    {
+      "id": "cuios_humor_wallet",
+      "style": "bloom",
+      "image": "captions/v4.0.2/humor_wallet-feaaa2472a.png",
+      "colors": [
+        "#28161A",
+        "#4B2726"
+      ],
+      "sha256": "feaaa2472ab645992b2e0f4f6e834f50208778b7f70bc9edfb4b8ac529bbb02d",
+      "bytes": 36771
+    },
+    {
+      "id": "cuios_humor_deadline",
+      "style": "sunset",
+      "image": "captions/v4.0.2/humor_deadline-c0a4555844.png",
+      "colors": [
+        "#143128",
+        "#325744"
+      ],
+      "sha256": "c0a4555844b3037c662a074842ef03f51caf4397578f921651ff929b8e8e6c5a",
+      "bytes": 29115
+    },
+    {
+      "id": "cuios_humor_attitude",
+      "style": "prism",
+      "image": "captions/v4.0.2/humor_attitude-cad748e545.png",
+      "colors": [
+        "#1B0F2F",
+        "#4D2E6C"
+      ],
+      "sha256": "cad748e54586889ca5d6894afd716a7369b551d567a232ff8f0661d885ba269e",
+      "bytes": 42137
+    },
+    {
+      "id": "cuios_humor_awake",
+      "style": "prism",
+      "image": "captions/v4.0.2/humor_awake-a37aec1770.png",
+      "colors": [
+        "#181930",
+        "#3F4462"
+      ],
+      "sha256": "a37aec177097277384eba01e9af21b62e323ef20d591559cf51d529ebbf1c4af",
+      "bytes": 41739
+    },
+    {
+      "id": "cuios_humor_natural",
+      "style": "ember",
+      "image": "captions/v4.0.2/humor_natural-c8445ca789.png",
+      "colors": [
+        "#12262B",
+        "#204547"
+      ],
+      "sha256": "c8445ca789373820b38560e87b0bc5ae594d3c2fb35dafcc9d9c8ffb7a7ea40b",
+      "bytes": 33742
+    },
+    {
+      "id": "cuios_humor_maintenance",
+      "style": "aurora",
+      "image": "captions/v4.0.2/humor_maintenance-7de1434483.png",
+      "colors": [
+        "#250E28",
+        "#562041"
+      ],
+      "sha256": "7de143448313ff22d84e2e45bb3ed0569187b606cd6316d9ee5847e26ad5dcde",
+      "bytes": 26023
+    },
+    {
+      "id": "cuios_humor_eatfirst",
+      "style": "sunset",
+      "image": "captions/v4.0.2/humor_eatfirst-7da6f87d0b.png",
+      "colors": [
+        "#0F1D33",
+        "#1C4463"
+      ],
+      "sha256": "7da6f87d0b32c28a32abbd89e3283e8c7d3afc9e163bf0d8de5d37fafb2e83b9",
+      "bytes": 22798
+    },
+    {
+      "id": "cuios_humor_salary",
+      "style": "aurora",
+      "image": "captions/v4.0.2/humor_salary-540a1e85e4.png",
+      "colors": [
+        "#111032",
+        "#2C2758"
+      ],
+      "sha256": "540a1e85e41dfe6f254c80f87d12cc7fd6e3c6505e4152709ba11d1dcd74d59d",
+      "bytes": 25295
+    },
+    {
+      "id": "cuios_humor_rest",
+      "style": "silk",
+      "image": "captions/v4.0.2/humor_rest-61d8a54865.png",
+      "colors": [
+        "#23140C",
+        "#59391D"
+      ],
+      "sha256": "61d8a548656bf3031219c2f9ba6d74fa173f40881fc65971ce9e3f3667de9349",
+      "bytes": 40368
+    },
+    {
+      "id": "cuios_humor_hungry",
+      "style": "cyber",
+      "image": "captions/v4.0.2/humor_hungry-4698db8060.png",
+      "colors": [
+        "#141B30",
+        "#2F3F63"
+      ],
+      "sha256": "4698db8060a8dd215fcd1f747f2b91155b8e1935d9724c3805822e844a39d543",
+      "bytes": 39880
+    },
+    {
+      "id": "cuios_humor_sleepy",
+      "style": "liquid",
+      "image": "captions/v4.0.2/humor_sleepy-166ae52e3a.png",
+      "colors": [
+        "#2B190F",
+        "#4E3219"
+      ],
+      "sha256": "166ae52e3a8e251601badef450bf93ff4199a6bf3c4573ce318ac3e1950ae79c",
+      "bytes": 46457
+    },
+    {
+      "id": "cuios_humor_lag",
+      "style": "neon",
+      "image": "captions/v4.0.2/humor_lag-bd502f912f.png",
+      "colors": [
+        "#311335",
+        "#552041"
+      ],
+      "sha256": "bd502f912f4a702a68b045a3127f33240037990fc901d7a422c0ed3daa382606",
+      "bytes": 31742
+    },
+    {
+      "id": "cuios_humor_subject",
+      "style": "galaxy",
+      "image": "captions/v4.0.2/humor_subject-f05e756e10.png",
+      "colors": [
+        "#143027",
+        "#294A3A"
+      ],
+      "sha256": "f05e756e10abe21ce3eaabb640896bee03c57ceec751a47d7d8d90e9a622bc86",
+      "bytes": 42121
+    },
+    {
+      "id": "cuios_humor_alarm",
+      "style": "ocean",
+      "image": "captions/v4.0.2/humor_alarm-a5edf8a2f8.png",
+      "colors": [
+        "#151440",
+        "#272351"
+      ],
+      "sha256": "a5edf8a2f8f851df1346dfdec6c616f5135d114b8d456f7b5b1e7717269b3d1f",
+      "bytes": 57258
+    },
+    {
+      "id": "cuios_humor_gossip",
+      "style": "silk",
+      "image": "captions/v4.0.2/humor_gossip-2f05829d4b.png",
+      "colors": [
+        "#17182E",
+        "#30344C"
+      ],
+      "sha256": "2f05829d4b593ecef02c97a911e1930aa0c6c31d6f6287a95579599e674130ce",
+      "bytes": 45270
+    },
+    {
+      "id": "cuios_love_choose",
+      "style": "ocean",
+      "image": "captions/v4.0.2/love_choose-d96dce875d.png",
+      "colors": [
+        "#341C22",
+        "#5D312F"
+      ],
+      "sha256": "d96dce875dca0605cd48073f52c4afe77d4d1950a97a2d2e0a046f2740f49f10",
+      "bytes": 69880
+    },
+    {
+      "id": "cuios_love_withyou",
+      "style": "cyber",
+      "image": "captions/v4.0.2/love_withyou-82c81d9062.png",
+      "colors": [
+        "#29102C",
+        "#612448"
+      ],
+      "sha256": "82c81d9062d59def9e583505cca17c4d1c183380668fd3d418a344c80957636c",
+      "bytes": 35877
+    },
+    {
+      "id": "cuios_love_soft",
+      "style": "prism",
+      "image": "captions/v4.0.2/love_soft-4a087f68fa.png",
+      "colors": [
+        "#2A1629",
+        "#674157"
+      ],
+      "sha256": "4a087f68fa1a75fd3a7801578dc30978639e78f7df8b47f5f06bbc6019f2b986",
+      "bytes": 43211
+    },
+    {
+      "id": "cuios_love_little",
+      "style": "cyber",
+      "image": "captions/v4.0.2/love_little-e322d0fa6d.png",
+      "colors": [
+        "#081E2F",
+        "#10504F"
+      ],
+      "sha256": "e322d0fa6d04d850de2788795e9414abd62a82bdf0e5c58988ba7fc879823fb5",
+      "bytes": 32644
+    },
+    {
+      "id": "cuios_love_home",
+      "style": "neon",
+      "image": "captions/v4.0.2/love_home-cc1a3d73ef.png",
+      "colors": [
+        "#142A30",
+        "#22494A"
+      ],
+      "sha256": "cc1a3d73efe6d40ffa5b8f7b07eb3f1a79c0cb78281890161e30ef08082e7f35",
+      "bytes": 35327
+    },
+    {
+      "id": "cuios_love_hug",
+      "style": "bloom",
+      "image": "captions/v4.0.2/love_hug-49993c3c36.png",
+      "colors": [
+        "#1B1C36",
+        "#383C57"
+      ],
+      "sha256": "49993c3c361729df4f576a198bf14db37a2a232f04342939701caf8fefe28749",
+      "bytes": 32944
+    },
+    {
+      "id": "cuios_love_miss",
+      "style": "liquid",
+      "image": "captions/v4.0.2/love_miss-24845da925.png",
+      "colors": [
+        "#071826",
+        "#105352"
+      ],
+      "sha256": "24845da925ae503a9f0caca1a07d46235d6740e75e16d86864d75b31c9274d65",
+      "bytes": 39476
+    },
+    {
+      "id": "cuios_love_smile",
+      "style": "ember",
+      "image": "captions/v4.0.2/love_smile-562e28ceee.png",
+      "colors": [
+        "#162D33",
+        "#1F4243"
+      ],
+      "sha256": "562e28ceeeca2a2ec2b19ea22dcf4d351459f7bf33cca4d83d70ff1969a7ae1f",
+      "bytes": 33682
+    },
+    {
+      "id": "cuios_love_wait",
+      "style": "hologram",
+      "image": "captions/v4.0.2/love_wait-a62057abc9.png",
+      "colors": [
+        "#141A2F",
+        "#314267"
+      ],
+      "sha256": "a62057abc96408453bdaaf917e3280442153992de0fc1320206e7e268281fafd",
+      "bytes": 53231
+    },
+    {
+      "id": "cuios_love_simple",
+      "style": "neon",
+      "image": "captions/v4.0.2/love_simple-bac6bedf2d.png",
+      "colors": [
+        "#081D2D",
+        "#115A58"
+      ],
+      "sha256": "bac6bedf2d0701c701b41cb00b358179295f99ce8cac3d05a14da8e190e2f955",
+      "bytes": 30203
+    },
+    {
+      "id": "cuios_joy_enough",
+      "style": "cyber",
+      "image": "captions/v4.0.2/joy_enough-dab80fd762.png",
+      "colors": [
+        "#2A1629",
+        "#664056"
+      ],
+      "sha256": "dab80fd762a8a5b30bd599bf4f412a318c2e3c6f29dd1e91122f4b076adbd6fc",
+      "bytes": 38594
+    },
+    {
+      "id": "cuios_joy_vitamin",
+      "style": "galaxy",
+      "image": "captions/v4.0.2/joy_vitamin-050193247d.png",
+      "colors": [
+        "#12233C",
+        "#173750"
+      ],
+      "sha256": "050193247d9275fb02c356ef6a8f21279666a2b27d1d371fbc31aef81ee5286e",
+      "bytes": 40835
+    },
+    {
+      "id": "cuios_joy_happy",
+      "style": "liquid",
+      "image": "captions/v4.0.2/joy_happy-8b3b65a09e.png",
+      "colors": [
+        "#23143D",
+        "#3F265A"
+      ],
+      "sha256": "8b3b65a09eec50cd4045b34ec32d1eb8130186fd0995a0433dfa23dcd48e6cf4",
+      "bytes": 45340
+    },
+    {
+      "id": "cuios_joy_broadcast",
+      "style": "bloom",
+      "image": "captions/v4.0.2/joy_broadcast-d016470dd7.png",
+      "colors": [
+        "#311B1F",
+        "#613330"
+      ],
+      "sha256": "d016470dd7139fbdf13a13a91b77e4b211dc55f40f3280fe6e8ad32a47061f9f",
+      "bytes": 36681
+    },
+    {
+      "id": "cuios_joy_sun",
+      "style": "prism",
+      "image": "captions/v4.0.2/joy_sun-308e201e3c.png",
+      "colors": [
+        "#0A2437",
+        "#105453"
+      ],
+      "sha256": "308e201e3ca5712dfef72f20bd2d373200d01d1a9246fb1ab390c3e47ffe70ba",
+      "bytes": 37612
+    },
+    {
+      "id": "cuios_joy_luck",
+      "style": "ember",
+      "image": "captions/v4.0.2/joy_luck-023168ccbe.png",
+      "colors": [
+        "#100F2F",
+        "#282352"
+      ],
+      "sha256": "023168ccbe8ed2225a69626f346cc9555897c139553ac951aadf31277fd257df",
+      "bytes": 27100
+    },
+    {
+      "id": "cuios_joy_photo",
+      "style": "ocean",
+      "image": "captions/v4.0.2/joy_photo-64672706c8.png",
+      "colors": [
+        "#261643",
+        "#472B65"
+      ],
+      "sha256": "64672706c847b241aaa3bbe2ba043f76cc537fba66e612ba49d7d4fbb83d694c",
+      "bytes": 59792
+    },
+    {
+      "id": "cuios_joy_weekend",
+      "style": "ember",
+      "image": "captions/v4.0.2/joy_weekend-f1153a3a0d.png",
+      "colors": [
+        "#311B1F",
+        "#6C3935"
+      ],
+      "sha256": "f1153a3a0d581902719804fcced75423c6a2c3e4b4763d0ebc1efbb8da039345",
+      "bytes": 36935
+    },
+    {
+      "id": "cuios_joy_save",
+      "style": "liquid",
+      "image": "captions/v4.0.2/joy_save-4d16cb7762.png",
+      "colors": [
+        "#15143F",
+        "#352F68"
+      ],
+      "sha256": "4d16cb7762d43b197e8af67dfd60e70cb07e4e087678c825c59ed444c18e8fab",
+      "bytes": 42357
+    },
+    {
+      "id": "cuios_joy_laugh",
+      "style": "aurora",
+      "image": "captions/v4.0.2/joy_laugh-a8754e46e7.png",
+      "colors": [
+        "#0E221B",
+        "#2D4F3E"
+      ],
+      "sha256": "a8754e46e7400b4d432596989b92c9d4c30213fd080c664ff266f32392c2aa39",
+      "bytes": 26833
+    },
+    {
+      "id": "cuios_mood_rain",
+      "style": "sunset",
+      "image": "captions/v4.0.2/mood_rain-4a654b1ae3.png",
+      "colors": [
+        "#250E28",
+        "#5D2346"
+      ],
+      "sha256": "4a654b1ae30aa536b25c27fbe20aea22d09d2a406d1c7dfd1be3ec833132db7c",
+      "bytes": 24221
+    },
+    {
+      "id": "cuios_mood_quiet",
+      "style": "silk",
+      "image": "captions/v4.0.2/mood_quiet-28172e70c4.png",
+      "colors": [
+        "#29102C",
+        "#511E3E"
+      ],
+      "sha256": "28172e70c4989b9720daf1c3a2b7b7d6af219aa92b100448ce70e2024bc2a6d6",
+      "bytes": 37959
+    },
+    {
+      "id": "cuios_mood_thought",
+      "style": "ember",
+      "image": "captions/v4.0.2/mood_thought-6944e9a297.png",
+      "colors": [
+        "#111032",
+        "#272250"
+      ],
+      "sha256": "6944e9a29758bdca3d6b476fbbf01a9a997c4e6e5fd7fdd456a55ec5077c5288",
+      "bytes": 27660
+    },
+    {
+      "id": "cuios_mood_slow",
+      "style": "cyber",
+      "image": "captions/v4.0.2/mood_slow-a216d084c2.png",
+      "colors": [
+        "#122C24",
+        "#254334"
+      ],
+      "sha256": "a216d084c2a9cdec619d5d3818aeff17a42ef220856892aa345667720f6f5584",
+      "bytes": 37929
+    },
+    {
+      "id": "cuios_mood_hug",
+      "style": "liquid",
+      "image": "captions/v4.0.2/mood_hug-e4469b03ac.png",
+      "colors": [
+        "#15162A",
+        "#3B3F5B"
+      ],
+      "sha256": "e4469b03ac86fddda9cb3ffdb060b516cb257e57fd9a61bdf72a3fedcfe00573",
+      "bytes": 46836
+    },
+    {
+      "id": "cuios_mood_tired",
+      "style": "ocean",
+      "image": "captions/v4.0.2/mood_tired-15625d5b32.png",
+      "colors": [
+        "#2A102D",
+        "#4E1D3C"
+      ],
+      "sha256": "15625d5b32db5f5358e4d29ead98a53b77aca950c8b174704462a811a221cc02",
+      "bytes": 57549
+    },
+    {
+      "id": "cuios_mood_okay",
+      "style": "neon",
+      "image": "captions/v4.0.2/mood_okay-f38da52d88.png",
+      "colors": [
+        "#351D22",
+        "#613330"
+      ],
+      "sha256": "f38da52d8871a6df5807b8750b93357819a7be7be4b718ce0358496c16bfbd5a",
+      "bytes": 38127
+    },
+    {
+      "id": "cuios_mood_hope",
+      "style": "hologram",
+      "image": "captions/v4.0.2/mood_hope-245a949bbd.png",
+      "colors": [
+        "#121136",
+        "#302A60"
+      ],
+      "sha256": "245a949bbd8c04b840da87a31770bd836f6cf19d8eb02b98d085b95ad4e0c0d3",
+      "bytes": 48783
+    },
+    {
+      "id": "cuios_mood_memory",
+      "style": "neon",
+      "image": "captions/v4.0.2/mood_memory-23b05b34c1.png",
+      "colors": [
+        "#112138",
+        "#173750"
+      ],
+      "sha256": "23b05b34c13e2bcc1ba2ecc34bf23598e39b2e70d356a4afdd97b32593b64838",
+      "bytes": 31968
+    },
+    {
+      "id": "cuios_mood_feeling",
+      "style": "sunset",
+      "image": "captions/v4.0.2/mood_feeling-4d86f30d50.png",
+      "colors": [
+        "#281745",
+        "#492C66"
+      ],
+      "sha256": "4d86f30d50585e36698a86e9f4f2e6346f54df0f96a5c46f042cb2b8d38cb3f5",
+      "bytes": 25914
+    },
+    {
+      "id": "cuios_friends_karma",
+      "style": "neon",
+      "image": "captions/v4.0.2/friends_karma-a5bfb0375d.png",
+      "colors": [
+        "#0F0E2D",
+        "#302B60"
+      ],
+      "sha256": "a5bfb0375dce10b6255d2d6c776f9efc119a242953da19ed2a2ace77434f436a",
+      "bytes": 33556
+    },
+    {
+      "id": "cuios_friends_stories",
+      "style": "galaxy",
+      "image": "captions/v4.0.2/friends_stories-587481d12e.png",
+      "colors": [
+        "#251324",
+        "#563649"
+      ],
+      "sha256": "587481d12e9a92b0144e3e4b2a449bf5e7f3324a87b34be813946367e9f2a93b",
+      "bytes": 41911
+    },
+    {
+      "id": "cuios_friends_together",
+      "style": "prism",
+      "image": "captions/v4.0.2/friends_together-20f945b5cd.png",
+      "colors": [
+        "#2D1130",
+        "#4D1D3B"
+      ],
+      "sha256": "20f945b5cd9f549d669340a59e084c891bc820b2ad8a18c8120bacf61abb72c1",
+      "bytes": 37173
+    },
+    {
+      "id": "cuios_friends_call",
+      "style": "silk",
+      "image": "captions/v4.0.2/friends_call-0b0e3e6484.png",
+      "colors": [
+        "#29161A",
+        "#4C2827"
+      ],
+      "sha256": "0b0e3e6484afb4c2b60d2ddd87145ac57c8fefbb50e0f18999e2d15d2d73e6d1",
+      "bytes": 53368
+    },
+    {
+      "id": "cuios_friends_snacks",
+      "style": "galaxy",
+      "image": "captions/v4.0.2/friends_snacks-cf1c4b4c96.png",
+      "colors": [
+        "#13253F",
+        "#183A55"
+      ],
+      "sha256": "cf1c4b4c9675f2594953e1b76eb318e967e733ffb8113beb88f03818622fa0a5",
+      "bytes": 40079
+    },
+    {
+      "id": "cuios_daily_coffee",
+      "style": "hologram",
+      "image": "captions/v4.0.2/daily_coffee-db423704d1.png",
+      "colors": [
+        "#0F251E",
+        "#2B4D3C"
+      ],
+      "sha256": "db423704d1893ad41371aba8d4a2bf4208a65ca9f5b752c211cee5416580e440",
+      "bytes": 53437
+    },
+    {
+      "id": "cuios_daily_study",
+      "style": "ember",
+      "image": "captions/v4.0.2/daily_study-be2c48e577.png",
+      "colors": [
+        "#2C172B",
+        "#643F55"
+      ],
+      "sha256": "be2c48e577c5afea5beb2f634798b984fe1888316933b1729f06d9a8a13bfe7d",
+      "bytes": 34062
+    },
+    {
+      "id": "cuios_daily_offwork",
+      "style": "hologram",
+      "image": "captions/v4.0.2/daily_offwork-feab508772.png",
+      "colors": [
+        "#261642",
+        "#382251"
+      ],
+      "sha256": "feab508772d6fba7a28265632e866e90bb6e151b40826fb9eb58977df4ba3ec4",
+      "bytes": 51284
+    },
+    {
+      "id": "cuios_daily_anywhere",
+      "style": "galaxy",
+      "image": "captions/v4.0.2/daily_anywhere-fe30e6bbd7.png",
+      "colors": [
+        "#161440",
+        "#26224E"
+      ],
+      "sha256": "fe30e6bbd77ecaa817af5a6b6d09c29fbe6ac19ccb7ea08b672cfffd19f0c86c",
+      "bytes": 37191
+    },
+    {
+      "id": "cuios_daily_ordinary",
+      "style": "neon",
+      "image": "captions/v4.0.2/daily_ordinary-1aa76b7bc0.png",
+      "colors": [
+        "#143027",
+        "#2D503E"
+      ],
+      "sha256": "1aa76b7bc09fddcf3ab94ade9103132b0b0a5459eb9ff6608811e3b6193874ea",
+      "bytes": 34182
+    },
+    {
+      "id": "cuios_confidence_filter",
+      "style": "ocean",
+      "image": "captions/v4.0.2/confidence_filter-6703fe6e88.png",
+      "colors": [
+        "#171F37",
+        "#263350"
+      ],
+      "sha256": "6703fe6e885138ac15bbaf1b0f59849e1a333d6b9e56c96962eded99b05df44c",
+      "bytes": 60701
+    },
+    {
+      "id": "cuios_confidence_choice",
+      "style": "cyber",
+      "image": "captions/v4.0.2/confidence_choice-1cf87211dd.png",
+      "colors": [
+        "#142642",
+        "#173852"
+      ],
+      "sha256": "1cf87211ddc31546cc4630cd60fc33a56fededb225663e83fafef30601136cc6",
+      "bytes": 37349
+    },
+    {
+      "id": "cuios_confidence_version",
+      "style": "hologram",
+      "image": "captions/v4.0.2/confidence_version-a5da7658e0.png",
+      "colors": [
+        "#1D1032",
+        "#43285F"
+      ],
+      "sha256": "a5da7658e0c1c1c67d94958cdd5bb9a9dd3891c90749446d44b7e6454832d548",
+      "bytes": 51695
+    },
+    {
+      "id": "cuios_confidence_myway",
+      "style": "hologram",
+      "image": "captions/v4.0.2/confidence_myway-27022b568d.png",
+      "colors": [
+        "#1B1C36",
+        "#3D425F"
+      ],
+      "sha256": "27022b568d765adc85fefc202d771534dbf803682b01268fb85fe8560dbf358d",
+      "bytes": 57310
+    },
+    {
+      "id": "cuios_confidence_imperfect",
+      "style": "silk",
+      "image": "captions/v4.0.2/confidence_imperfect-dcb30f9f89.png",
+      "colors": [
+        "#321B20",
+        "#6B3835"
+      ],
+      "sha256": "dcb30f9f89a529815cb1f2cb38f9e0249b82cf67866f9cfe9105b3c1ed2f9849",
+      "bytes": 52436
+    }
+  ]
+}
