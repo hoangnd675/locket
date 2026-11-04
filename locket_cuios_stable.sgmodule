@@ -1,6 +1,5 @@
-#!name=Cuios • Profile thống nhất • v4.0.5
-#!desc=60s/100 MiB, mic, 94 ghi chú; có trang chẩn đoán cục bộ. Chỉ bật một module Locket. Xem README về giới hạn native/cache.
-#!author=Cuios.shop
+#!name=Locket gold
+#!author=hoangnd675
 #!moduleUrl=https://raw.githubusercontent.com/hoangnd675/locket/main/locket_cuios_stable.sgmodule
 
 [Script]
