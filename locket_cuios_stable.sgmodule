@@ -1,14 +1,13 @@
-#!name=Cuios • Profile thống nhất • v4.0.5
-#!desc=60s/100 MiB, mic, 94 ghi chú; có trang chẩn đoán cục bộ. Chỉ bật một module Locket. Xem README về giới hạn native/cache.
-#!author=Cuios.shop
-#!moduleUrl=https://raw.githubusercontent.com/Cuios-shop/locket_cuios_stable/main/locket_cuios_stable.sgmodule
+#!name=Locket gold v4.0.5
+#!author=hoangnd675
+#!moduleUrl=https://raw.githubusercontent.com/hoangnd675/locket/main/locket_cuios_stable.sgmodule
 
 [Script]
-cuios4_status = type=http-request, pattern=^http://cuios-status\.invalid/(?:status|report\.json)(?:\?[^#]*)?$, script-path=https://raw.githubusercontent.com/Cuios-shop/locket_cuios_stable/main/scripts/releases/locket-v4.0.5-942825faf3e5.js, timeout=10
-cuios4_https = type=http-request, pattern=^https://(?:api\.revenuecat\.com|firebaseremoteconfig\.googleapis\.com)/cuios-check(?:\?[^#]*)?$, script-path=https://raw.githubusercontent.com/Cuios-shop/locket_cuios_stable/main/scripts/releases/locket-v4.0.5-942825faf3e5.js, timeout=10
-cuios4_request = type=http-request, pattern=^https://(?:(?:api\.revenuecat\.com|api\.rc-backup\.com|api-production\.8-lives-cat\.io)/(?:v1|v2)/(?:receipts|subscribers)(?:[/?]|$)|firebaseremoteconfig\.googleapis\.com/v1/projects/[^/?#]+/namespaces/[^/?#]+:fetch/?(?:\?[^#]*)?$), script-path=https://raw.githubusercontent.com/Cuios-shop/locket_cuios_stable/main/scripts/releases/locket-v4.0.5-942825faf3e5.js, timeout=10
-cuios4_revenuecat = type=http-response, pattern=^https://(?:api\.revenuecat\.com|api\.rc-backup\.com|api-production\.8-lives-cat\.io)/(?:v1|v2)/(?:receipts|subscribers)(?:[/?]|$), script-path=https://raw.githubusercontent.com/Cuios-shop/locket_cuios_stable/main/scripts/releases/locket-v4.0.5-942825faf3e5.js, requires-body=true, max-size=1048576, timeout=10
-cuios4_firebase = type=http-response, pattern=^https://firebaseremoteconfig\.googleapis\.com/v1/projects/(?:locket-4252a|869942740286)/namespaces/firebase:fetch/?(?:\?[^#]*)?$, script-path=https://raw.githubusercontent.com/Cuios-shop/locket_cuios_stable/main/scripts/releases/locket-v4.0.5-942825faf3e5.js, argument=aura-frame, requires-body=true, max-size=1048576, timeout=10
+cuios4_status = type=http-request, pattern=^http://cuios-status\.invalid/(?:status|report\.json)(?:\?[^#]*)?$, script-path=https://raw.githubusercontent.com/hoangnd675/locket/main/scripts/releases/locket-v4.0.5-942825faf3e5.js, timeout=10
+cuios4_https = type=http-request, pattern=^https://(?:api\.revenuecat\.com|firebaseremoteconfig\.googleapis\.com)/cuios-check(?:\?[^#]*)?$, script-path=https://raw.githubusercontent.com/hoangnd675/locket/main/scripts/releases/locket-v4.0.5-942825faf3e5.js, timeout=10
+cuios4_request = type=http-request, pattern=^https://(?:(?:api\.revenuecat\.com|api\.rc-backup\.com|api-production\.8-lives-cat\.io)/(?:v1|v2)/(?:receipts|subscribers)(?:[/?]|$)|firebaseremoteconfig\.googleapis\.com/v1/projects/[^/?#]+/namespaces/[^/?#]+:fetch/?(?:\?[^#]*)?$), script-path=https://raw.githubusercontent.com/hoangnd675/locket/main/scripts/releases/locket-v4.0.5-942825faf3e5.js, timeout=10
+cuios4_revenuecat = type=http-response, pattern=^https://(?:api\.revenuecat\.com|api\.rc-backup\.com|api-production\.8-lives-cat\.io)/(?:v1|v2)/(?:receipts|subscribers)(?:[/?]|$), script-path=https://raw.githubusercontent.com/hoangnd675/locket/main/scripts/releases/locket-v4.0.5-942825faf3e5.js, requires-body=true, max-size=1048576, timeout=10
+cuios4_firebase = type=http-response, pattern=^https://firebaseremoteconfig\.googleapis\.com/v1/projects/(?:locket-4252a|869942740286)/namespaces/firebase:fetch/?(?:\?[^#]*)?$, script-path=https://raw.githubusercontent.com/hoangnd675/locket/main/scripts/releases/locket-v4.0.5-942825faf3e5.js, argument=aura-frame, requires-body=true, max-size=1048576, timeout=10
 
 [Host]
 cuios-status.invalid = 198.18.0.1
