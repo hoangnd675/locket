@@ -1,5 +1,3 @@
-/* global $request, $response, $done, $argument, $persistentStore */
-// One standalone runtime. No outbound requests; only sanitized diagnostics are persisted.
 (function () {
   "use strict";
 
