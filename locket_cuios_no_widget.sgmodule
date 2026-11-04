@@ -4,7 +4,7 @@
 #!moduleUrl=https://raw.githubusercontent.com/hoangnd675/locket/main/locket_cuios_no_widget.sgmodule
 
 [Script]
-cuios4_status = type=http-request, pattern=^http://cuios-status\.invalid/(?:status|report\.json)(?:\?[^#]*)?$, script-path=https://raw.githubusercontent.com/locket/locket/main/scripts/releases/locket-v4.1.1-9492ace4527d.js, timeout=10, enable=true
+cuios4_status = type=http-request, pattern=^http://cuios-status\.invalid/(?:status|report\.json)(?:\?[^#]*)?$, script-path=https://raw.githubusercontent.com/hoangnd675/locket/main/scripts/releases/locket-v4.1.1-9492ace4527d.js, timeout=10, enable=true
 cuios4_https = type=http-request, pattern=^https://(?:api\.revenuecat\.com|firebaseremoteconfig\.googleapis\.com)/cuios-check(?:\?[^#]*)?$, script-path=https://raw.githubusercontent.com/hoangnd675/locket/main/scripts/releases/locket-v4.1.1-9492ace4527d.js, timeout=10, enable=true
 cuios4_request = type=http-request, pattern=^https://(?:(?:api\.revenuecat\.com|api\.rc-backup\.com|api-production\.8-lives-cat\.io)/(?:v1|v2)/(?:receipts|subscribers)(?:[/?]|$)|firebaseremoteconfig\.googleapis\.com/v1/projects/[^/?#]+/namespaces/[^/?#]+:fetch/?(?:\?[^#]*)?$), script-path=https://raw.githubusercontent.com/hoangnd675/locket/main/scripts/releases/locket-v4.1.1-9492ace4527d.js, timeout=10, enable=true
 cuios4_revenuecat = type=http-response, pattern=^https://(?:api\.revenuecat\.com|api\.rc-backup\.com|api-production\.8-lives-cat\.io)/(?:v1|v2)/(?:receipts|subscribers)(?:[/?]|$), script-path=https://raw.githubusercontent.com/hoangnd675/locket/main/scripts/releases/locket-v4.1.1-9492ace4527d.js, requires-body=true, max-size=1048576, timeout=10, enable=true
