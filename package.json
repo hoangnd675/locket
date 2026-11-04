@@ -1,0 +1,16 @@
+{
+  "name": "locket_cuios_stable",
+  "version": "4.0.5",
+  "private": true,
+  "description": "Cuios: giữ cấu hình 60s/100 MiB, 94 ghi chú với 90 nền riêng và bốn mẫu bản quyền giữ nguyên",
+  "scripts": {
+    "check": "node --check scripts/locket.js",
+    "test": "node --test",
+    "build:protected": "node tools/build_protected.cjs",
+    "test:protected": "CUIOS_PROTECTED_RUNTIME=1 node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
