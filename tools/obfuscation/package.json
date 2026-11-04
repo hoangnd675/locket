@@ -1,0 +1,12 @@
+{
+  "name": "cuios-obfuscation-build",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline Cuios release obfuscation; not a runtime dependency",
+  "dependencies": {
+    "javascript-obfuscator": "5.9.0"
+  },
+  "overrides": {
+    "@vercel/blob": "2.3.0"
+  }
+}

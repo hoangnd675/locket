@@ -1,0 +1,17 @@
+#!name=Cuios • Looks • Giữ mục gốc • v4.0.5 • Protected P1
+#!desc=JS lam roi P1; can thu tren Shadowrocket. Không chèn ghi chú Cuios, giữ menu và khung server; thử cờ Looks, chưa xác nhận tạo ảnh AI. 60s/100 MiB, mic; có trang chẩn đoán cục bộ. Chỉ bật một module Locket. Xem README về giới hạn native/cache.
+#!author=Cuios.shop
+#!moduleUrl=https://raw.githubusercontent.com/Cuios-shop/locket_cuios_stable/main/locket_cuios_looks_native_protected.sgmodule
+
+[Script]
+cuios4_status = type=http-request, pattern=^http://cuios-status\.invalid/(?:status|report\.json)(?:\?[^#]*)?$, script-path=https://raw.githubusercontent.com/Cuios-shop/locket_cuios_stable/main/scripts/protected/locket-v4.0.5-14be5023c96d.js, timeout=10
+cuios4_https = type=http-request, pattern=^https://(?:api\.revenuecat\.com|firebaseremoteconfig\.googleapis\.com)/cuios-check(?:\?[^#]*)?$, script-path=https://raw.githubusercontent.com/Cuios-shop/locket_cuios_stable/main/scripts/protected/locket-v4.0.5-14be5023c96d.js, timeout=10
+cuios4_request = type=http-request, pattern=^https://(?:(?:api\.revenuecat\.com|api\.rc-backup\.com|api-production\.8-lives-cat\.io)/(?:v1|v2)/(?:receipts|subscribers)(?:[/?]|$)|firebaseremoteconfig\.googleapis\.com/v1/projects/[^/?#]+/namespaces/[^/?#]+:fetch/?(?:\?[^#]*)?$), script-path=https://raw.githubusercontent.com/Cuios-shop/locket_cuios_stable/main/scripts/protected/locket-v4.0.5-14be5023c96d.js, timeout=10
+cuios4_revenuecat = type=http-response, pattern=^https://(?:api\.revenuecat\.com|api\.rc-backup\.com|api-production\.8-lives-cat\.io)/(?:v1|v2)/(?:receipts|subscribers)(?:[/?]|$), script-path=https://raw.githubusercontent.com/Cuios-shop/locket_cuios_stable/main/scripts/protected/locket-v4.0.5-14be5023c96d.js, requires-body=true, max-size=1048576, timeout=10
+cuios4_firebase = type=http-response, pattern=^https://firebaseremoteconfig\.googleapis\.com/v1/projects/(?:locket-4252a|869942740286)/namespaces/firebase:fetch/?(?:\?[^#]*)?$, script-path=https://raw.githubusercontent.com/Cuios-shop/locket_cuios_stable/main/scripts/protected/locket-v4.0.5-14be5023c96d.js, argument=looks-native, requires-body=true, max-size=1048576, timeout=10
+
+[Host]
+cuios-status.invalid = 198.18.0.1
+
+[MITM]
+hostname = %APPEND% api.revenuecat.com, api.rc-backup.com, api-production.8-lives-cat.io, firebaseremoteconfig.googleapis.com
