@@ -2,7 +2,7 @@
   "name": "locket_cuios_stable",
   "version": "4.0.5",
   "private": true,
-  "description": "Cuios: giữ cấu hình 60s/100 MiB, 94 ghi chú với 90 nền riêng và bốn mẫu bản quyền giữ nguyên",
+  "description": "Giữ cấu hình 60s/100 MiB, 90 ghi chú với 90 nền riêng",
   "scripts": {
     "check": "node --check scripts/locket.js",
     "test": "node --test",
