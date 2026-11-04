@@ -1,14 +1,5 @@
 [
   {
-    "id": "brand", "section": "Cuios • Bản quyền", "background": "brand",
-    "items": [
-      ["certificate", "mua chứng chỉ Cuios.shop", "👑"],
-      ["copyright", "Bản quyền Cuios", "✨"],
-      ["cun", "Cưn🍤", "🍤"],
-      ["tom", "tom11th5", "💛"]
-    ]
-  },
-  {
     "id": "love", "section": "Tình yêu", "background": "love",
     "items": [
       ["choose", "Tim tớ chọn cậu rồi", "💗"],
