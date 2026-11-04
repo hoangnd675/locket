@@ -1,11 +1,11 @@
 {
   "version": "4.0.2",
-  "seed": "art-v1",
+  "seed": "cuios-94-art-v1",
   "width": 768,
   "height": 256,
   "items": [
     {
-      "id": "tease_pretend",
+      "id": "cuios_tease_pretend",
       "style": "prism",
       "image": "captions/v4.0.2/tease_pretend-f0846303d0.png",
       "colors": [
@@ -16,7 +16,7 @@
       "bytes": 41063
     },
     {
-      "id": "tease_look",
+      "id": "cuios_tease_look",
       "style": "prism",
       "image": "captions/v4.0.2/tease_look-b1be52f1aa.png",
       "colors": [
@@ -27,7 +27,7 @@
       "bytes": 34210
     },
     {
-      "id": "tease_shy",
+      "id": "cuios_tease_shy",
       "style": "silk",
       "image": "captions/v4.0.2/tease_shy-afc122d686.png",
       "colors": [
@@ -38,7 +38,7 @@
       "bytes": 38142
     },
     {
-      "id": "tease_remember",
+      "id": "cuios_tease_remember",
       "style": "galaxy",
       "image": "captions/v4.0.2/tease_remember-e46956e6d9.png",
       "colors": [
@@ -49,7 +49,7 @@
       "bytes": 40302
     },
     {
-      "id": "tease_flirt",
+      "id": "cuios_tease_flirt",
       "style": "ember",
       "image": "captions/v4.0.2/tease_flirt-55fe53fb40.png",
       "colors": [
@@ -60,7 +60,7 @@
       "bytes": 34274
     },
     {
-      "id": "tease_know",
+      "id": "cuios_tease_know",
       "style": "bloom",
       "image": "captions/v4.0.2/tease_know-84f2fe795a.png",
       "colors": [
@@ -71,7 +71,7 @@
       "bytes": 30453
     },
     {
-      "id": "tease_selective",
+      "id": "cuios_tease_selective",
       "style": "galaxy",
       "image": "captions/v4.0.2/tease_selective-58cab08195.png",
       "colors": [
@@ -82,7 +82,7 @@
       "bytes": 39690
     },
     {
-      "id": "tease_longlook",
+      "id": "cuios_tease_longlook",
       "style": "silk",
       "image": "captions/v4.0.2/tease_longlook-a11fbff776.png",
       "colors": [
@@ -93,7 +93,7 @@
       "bytes": 42492
     },
     {
-      "id": "tease_loveplease",
+      "id": "cuios_tease_loveplease",
       "style": "aurora",
       "image": "captions/v4.0.2/tease_loveplease-1edeb63ff3.png",
       "colors": [
@@ -104,7 +104,7 @@
       "bytes": 28242
     },
     {
-      "id": "tease_space",
+      "id": "cuios_tease_space",
       "style": "bloom",
       "image": "captions/v4.0.2/tease_space-3d02cc2d7c.png",
       "colors": [
@@ -115,7 +115,7 @@
       "bytes": 31939
     },
     {
-      "id": "tease_fee",
+      "id": "cuios_tease_fee",
       "style": "sunset",
       "image": "captions/v4.0.2/tease_fee-7d4a38e239.png",
       "colors": [
@@ -126,7 +126,7 @@
       "bytes": 23009
     },
     {
-      "id": "tease_behave",
+      "id": "cuios_tease_behave",
       "style": "aurora",
       "image": "captions/v4.0.2/tease_behave-9c87deb363.png",
       "colors": [
@@ -137,7 +137,7 @@
       "bytes": 25833
     },
     {
-      "id": "tease_price",
+      "id": "cuios_tease_price",
       "style": "prism",
       "image": "captions/v4.0.2/tease_price-93ac92e098.png",
       "colors": [
@@ -148,7 +148,7 @@
       "bytes": 39813
     },
     {
-      "id": "tease_early",
+      "id": "cuios_tease_early",
       "style": "hologram",
       "image": "captions/v4.0.2/tease_early-31297fbbd8.png",
       "colors": [
@@ -159,7 +159,7 @@
       "bytes": 53273
     },
     {
-      "id": "tease_closer",
+      "id": "cuios_tease_closer",
       "style": "neon",
       "image": "captions/v4.0.2/tease_closer-5cc9f1b9f8.png",
       "colors": [
@@ -170,7 +170,7 @@
       "bytes": 30660
     },
     {
-      "id": "tease_reply",
+      "id": "cuios_tease_reply",
       "style": "bloom",
       "image": "captions/v4.0.2/tease_reply-32a8659a82.png",
       "colors": [
@@ -181,7 +181,7 @@
       "bytes": 30243
     },
     {
-      "id": "tease_attention",
+      "id": "cuios_tease_attention",
       "style": "aurora",
       "image": "captions/v4.0.2/tease_attention-5f4b7508c2.png",
       "colors": [
@@ -192,7 +192,7 @@
       "bytes": 26198
     },
     {
-      "id": "tease_order",
+      "id": "cuios_tease_order",
       "style": "sunset",
       "image": "captions/v4.0.2/tease_order-d36026ff6c.png",
       "colors": [
@@ -203,7 +203,7 @@
       "bytes": 22447
     },
     {
-      "id": "tease_secret",
+      "id": "cuios_tease_secret",
       "style": "aurora",
       "image": "captions/v4.0.2/tease_secret-b05c31f9c6.png",
       "colors": [
@@ -214,7 +214,7 @@
       "bytes": 25176
     },
     {
-      "id": "tease_standstill",
+      "id": "cuios_tease_standstill",
       "style": "bloom",
       "image": "captions/v4.0.2/tease_standstill-0ccc54c5db.png",
       "colors": [
@@ -225,7 +225,7 @@
       "bytes": 33759
     },
     {
-      "id": "tease_cute",
+      "id": "cuios_tease_cute",
       "style": "sunset",
       "image": "captions/v4.0.2/tease_cute-793e004adc.png",
       "colors": [
@@ -236,7 +236,7 @@
       "bytes": 27040
     },
     {
-      "id": "tease_seen",
+      "id": "cuios_tease_seen",
       "style": "ocean",
       "image": "captions/v4.0.2/tease_seen-b538b442f7.png",
       "colors": [
@@ -247,7 +247,7 @@
       "bytes": 57426
     },
     {
-      "id": "tease_crush",
+      "id": "cuios_tease_crush",
       "style": "liquid",
       "image": "captions/v4.0.2/tease_crush-2af64e8a2c.png",
       "colors": [
@@ -258,7 +258,7 @@
       "bytes": 45874
     },
     {
-      "id": "tease_heart",
+      "id": "cuios_tease_heart",
       "style": "liquid",
       "image": "captions/v4.0.2/tease_heart-7dbc4a025d.png",
       "colors": [
@@ -269,7 +269,7 @@
       "bytes": 46072
     },
     {
-      "id": "tease_busy",
+      "id": "cuios_tease_busy",
       "style": "ocean",
       "image": "captions/v4.0.2/tease_busy-9d8e692d0d.png",
       "colors": [
@@ -280,7 +280,7 @@
       "bytes": 63265
     },
     {
-      "id": "tease_snack",
+      "id": "cuios_tease_snack",
       "style": "hologram",
       "image": "captions/v4.0.2/tease_snack-427794f461.png",
       "colors": [
@@ -291,7 +291,7 @@
       "bytes": 51395
     },
     {
-      "id": "tease_signal",
+      "id": "cuios_tease_signal",
       "style": "aurora",
       "image": "captions/v4.0.2/tease_signal-c3538be808.png",
       "colors": [
@@ -302,7 +302,7 @@
       "bytes": 29465
     },
     {
-      "id": "tease_sleep",
+      "id": "cuios_tease_sleep",
       "style": "liquid",
       "image": "captions/v4.0.2/tease_sleep-b1b4b104db.png",
       "colors": [
@@ -313,7 +313,7 @@
       "bytes": 47973
     },
     {
-      "id": "tease_model",
+      "id": "cuios_tease_model",
       "style": "cyber",
       "image": "captions/v4.0.2/tease_model-3530c6174f.png",
       "colors": [
@@ -324,7 +324,7 @@
       "bytes": 37197
     },
     {
-      "id": "tease_notice",
+      "id": "cuios_tease_notice",
       "style": "galaxy",
       "image": "captions/v4.0.2/tease_notice-478808ea82.png",
       "colors": [
