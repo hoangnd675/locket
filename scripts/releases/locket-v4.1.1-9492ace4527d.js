@@ -417,17 +417,23 @@
     entries[key] = JSON.stringify(config);
   }
 
-  function captionPatch(entries) {
+    function captionPatch(entries) {
     // Replace the old picker catalogue as requested; never edit posted moments.
     // Dynamic renderer names and custom static overlay IDs serve different purposes.
     // Keep the server renderer list instead of replacing it with our 54 custom IDs.
     var types;
     try { types = JSON.parse(entries.overlay_dynamic_captions || "null"); } catch (_) { types = null; }
+    
+    // Đổi "standard" thành "caption"
     if (!Array.isArray(types) || !types.every(function (value) { return typeof value === "string"; })) {
-      types = ["standard", "music", "location", "weather", "time", "streak", "custom"];
+      types = ["caption", "music", "location", "weather", "time", "streak", "custom"];
     }
+    
     types = types.filter(function (type) { return !/^cuios_/.test(type); });
-    if (types.indexOf("standard") < 0) types.unshift("standard");
+    
+    // Đổi "standard" thành "caption"
+    if (types.indexOf("caption") < 0) types.unshift("caption");
+    
     var count = 0;
     var colors = {
       brand: ["#3F2B13", "#77541F"], love: ["#59223F", "#342044"],
@@ -464,6 +470,7 @@
     entries.overlay_dynamic_captions = JSON.stringify(types);
     return count;
   }
+
 
   function widgetPatch(entries) {
     var mode = typeof $argument === "string" ? $argument : "";
