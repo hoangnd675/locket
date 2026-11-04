@@ -1,6 +1,23 @@
 [
-  {
-    "id": "tease",
+  {"id": "tease",
+    "section": "Trêu đùa",
+    "background": "tease",
+    "items": [
+      [
+        "pretend",
+        "Test locket gold quay vd 60s có âm thanh, đăng vd 10s, đổi màu caption",
+        "🫶",
+        {
+          "style": "prism",
+          "image": "captions/v4.0.2/tease_pretend-f0846303d0.png",
+          "colors": [
+            "#0D201A",
+            "#2D503E"
+          ]
+        }
+      ],
+[
+  {"id": "tease",
     "section": "Trêu đùa",
     "background": "tease",
     "items": [

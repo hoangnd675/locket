@@ -1,11 +1,11 @@
 {
   "version": "4.0.2",
-  "seed": "cuios-94-art-v1",
+  "seed": "art-v1",
   "width": 768,
   "height": 256,
   "items": [
     {
-      "id": "cuios_tease_pretend",
+      "id": "tease_pretend",
       "style": "prism",
       "image": "captions/v4.0.2/tease_pretend-f0846303d0.png",
       "colors": [
@@ -16,7 +16,7 @@
       "bytes": 41063
     },
     {
-      "id": "cuios_tease_look",
+      "id": "tease_look",
       "style": "prism",
       "image": "captions/v4.0.2/tease_look-b1be52f1aa.png",
       "colors": [
@@ -27,7 +27,7 @@
       "bytes": 34210
     },
     {
-      "id": "cuios_tease_shy",
+      "id": "tease_shy",
       "style": "silk",
       "image": "captions/v4.0.2/tease_shy-afc122d686.png",
       "colors": [
@@ -38,7 +38,7 @@
       "bytes": 38142
     },
     {
-      "id": "cuios_tease_remember",
+      "id": "tease_remember",
       "style": "galaxy",
       "image": "captions/v4.0.2/tease_remember-e46956e6d9.png",
       "colors": [
@@ -49,7 +49,7 @@
       "bytes": 40302
     },
     {
-      "id": "cuios_tease_flirt",
+      "id": "tease_flirt",
       "style": "ember",
       "image": "captions/v4.0.2/tease_flirt-55fe53fb40.png",
       "colors": [
@@ -60,7 +60,7 @@
       "bytes": 34274
     },
     {
-      "id": "cuios_tease_know",
+      "id": "tease_know",
       "style": "bloom",
       "image": "captions/v4.0.2/tease_know-84f2fe795a.png",
       "colors": [
@@ -71,7 +71,7 @@
       "bytes": 30453
     },
     {
-      "id": "cuios_tease_selective",
+      "id": "tease_selective",
       "style": "galaxy",
       "image": "captions/v4.0.2/tease_selective-58cab08195.png",
       "colors": [
@@ -82,7 +82,7 @@
       "bytes": 39690
     },
     {
-      "id": "cuios_tease_longlook",
+      "id": "tease_longlook",
       "style": "silk",
       "image": "captions/v4.0.2/tease_longlook-a11fbff776.png",
       "colors": [
@@ -93,7 +93,7 @@
       "bytes": 42492
     },
     {
-      "id": "cuios_tease_loveplease",
+      "id": "tease_loveplease",
       "style": "aurora",
       "image": "captions/v4.0.2/tease_loveplease-1edeb63ff3.png",
       "colors": [
@@ -104,7 +104,7 @@
       "bytes": 28242
     },
     {
-      "id": "cuios_tease_space",
+      "id": "tease_space",
       "style": "bloom",
       "image": "captions/v4.0.2/tease_space-3d02cc2d7c.png",
       "colors": [
@@ -115,7 +115,7 @@
       "bytes": 31939
     },
     {
-      "id": "cuios_tease_fee",
+      "id": "tease_fee",
       "style": "sunset",
       "image": "captions/v4.0.2/tease_fee-7d4a38e239.png",
       "colors": [
@@ -126,7 +126,7 @@
       "bytes": 23009
     },
     {
-      "id": "cuios_tease_behave",
+      "id": "tease_behave",
       "style": "aurora",
       "image": "captions/v4.0.2/tease_behave-9c87deb363.png",
       "colors": [
@@ -137,7 +137,7 @@
       "bytes": 25833
     },
     {
-      "id": "cuios_tease_price",
+      "id": "tease_price",
       "style": "prism",
       "image": "captions/v4.0.2/tease_price-93ac92e098.png",
       "colors": [
@@ -148,7 +148,7 @@
       "bytes": 39813
     },
     {
-      "id": "cuios_tease_early",
+      "id": "tease_early",
       "style": "hologram",
       "image": "captions/v4.0.2/tease_early-31297fbbd8.png",
       "colors": [
@@ -159,7 +159,7 @@
       "bytes": 53273
     },
     {
-      "id": "cuios_tease_closer",
+      "id": "tease_closer",
       "style": "neon",
       "image": "captions/v4.0.2/tease_closer-5cc9f1b9f8.png",
       "colors": [
@@ -170,7 +170,7 @@
       "bytes": 30660
     },
     {
-      "id": "cuios_tease_reply",
+      "id": "tease_reply",
       "style": "bloom",
       "image": "captions/v4.0.2/tease_reply-32a8659a82.png",
       "colors": [
@@ -181,7 +181,7 @@
       "bytes": 30243
     },
     {
-      "id": "cuios_tease_attention",
+      "id": "tease_attention",
       "style": "aurora",
       "image": "captions/v4.0.2/tease_attention-5f4b7508c2.png",
       "colors": [
@@ -192,7 +192,7 @@
       "bytes": 26198
     },
     {
-      "id": "cuios_tease_order",
+      "id": "tease_order",
       "style": "sunset",
       "image": "captions/v4.0.2/tease_order-d36026ff6c.png",
       "colors": [
@@ -203,7 +203,7 @@
       "bytes": 22447
     },
     {
-      "id": "cuios_tease_secret",
+      "id": "tease_secret",
       "style": "aurora",
       "image": "captions/v4.0.2/tease_secret-b05c31f9c6.png",
       "colors": [
@@ -214,7 +214,7 @@
       "bytes": 25176
     },
     {
-      "id": "cuios_tease_standstill",
+      "id": "tease_standstill",
       "style": "bloom",
       "image": "captions/v4.0.2/tease_standstill-0ccc54c5db.png",
       "colors": [
@@ -225,7 +225,7 @@
       "bytes": 33759
     },
     {
-      "id": "cuios_tease_cute",
+      "id": "tease_cute",
       "style": "sunset",
       "image": "captions/v4.0.2/tease_cute-793e004adc.png",
       "colors": [
@@ -236,7 +236,7 @@
       "bytes": 27040
     },
     {
-      "id": "cuios_tease_seen",
+      "id": "tease_seen",
       "style": "ocean",
       "image": "captions/v4.0.2/tease_seen-b538b442f7.png",
       "colors": [
@@ -247,7 +247,7 @@
       "bytes": 57426
     },
     {
-      "id": "cuios_tease_crush",
+      "id": "tease_crush",
       "style": "liquid",
       "image": "captions/v4.0.2/tease_crush-2af64e8a2c.png",
       "colors": [
@@ -258,7 +258,7 @@
       "bytes": 45874
     },
     {
-      "id": "cuios_tease_heart",
+      "id": "tease_heart",
       "style": "liquid",
       "image": "captions/v4.0.2/tease_heart-7dbc4a025d.png",
       "colors": [
@@ -269,7 +269,7 @@
       "bytes": 46072
     },
     {
-      "id": "cuios_tease_busy",
+      "id": "tease_busy",
       "style": "ocean",
       "image": "captions/v4.0.2/tease_busy-9d8e692d0d.png",
       "colors": [
@@ -280,7 +280,7 @@
       "bytes": 63265
     },
     {
-      "id": "cuios_tease_snack",
+      "id": "tease_snack",
       "style": "hologram",
       "image": "captions/v4.0.2/tease_snack-427794f461.png",
       "colors": [
@@ -291,7 +291,7 @@
       "bytes": 51395
     },
     {
-      "id": "cuios_tease_signal",
+      "id": "tease_signal",
       "style": "aurora",
       "image": "captions/v4.0.2/tease_signal-c3538be808.png",
       "colors": [
@@ -302,7 +302,7 @@
       "bytes": 29465
     },
     {
-      "id": "cuios_tease_sleep",
+      "id": "tease_sleep",
       "style": "liquid",
       "image": "captions/v4.0.2/tease_sleep-b1b4b104db.png",
       "colors": [
@@ -313,7 +313,7 @@
       "bytes": 47973
     },
     {
-      "id": "cuios_tease_model",
+      "id": "tease_model",
       "style": "cyber",
       "image": "captions/v4.0.2/tease_model-3530c6174f.png",
       "colors": [
@@ -324,7 +324,7 @@
       "bytes": 37197
     },
     {
-      "id": "cuios_tease_notice",
+      "id": "tease_notice",
       "style": "galaxy",
       "image": "captions/v4.0.2/tease_notice-478808ea82.png",
       "colors": [
@@ -335,7 +335,7 @@
       "bytes": 39752
     },
     {
-      "id": "cuios_humor_wallet",
+      "id": "humor_wallet",
       "style": "bloom",
       "image": "captions/v4.0.2/humor_wallet-feaaa2472a.png",
       "colors": [
@@ -346,7 +346,7 @@
       "bytes": 36771
     },
     {
-      "id": "cuios_humor_deadline",
+      "id": "humor_deadline",
       "style": "sunset",
       "image": "captions/v4.0.2/humor_deadline-c0a4555844.png",
       "colors": [
@@ -357,7 +357,7 @@
       "bytes": 29115
     },
     {
-      "id": "cuios_humor_attitude",
+      "id": "humor_attitude",
       "style": "prism",
       "image": "captions/v4.0.2/humor_attitude-cad748e545.png",
       "colors": [
@@ -368,7 +368,7 @@
       "bytes": 42137
     },
     {
-      "id": "cuios_humor_awake",
+      "id": "humor_awake",
       "style": "prism",
       "image": "captions/v4.0.2/humor_awake-a37aec1770.png",
       "colors": [
@@ -379,7 +379,7 @@
       "bytes": 41739
     },
     {
-      "id": "cuios_humor_natural",
+      "id": "humor_natural",
       "style": "ember",
       "image": "captions/v4.0.2/humor_natural-c8445ca789.png",
       "colors": [
@@ -390,7 +390,7 @@
       "bytes": 33742
     },
     {
-      "id": "cuios_humor_maintenance",
+      "id": "humor_maintenance",
       "style": "aurora",
       "image": "captions/v4.0.2/humor_maintenance-7de1434483.png",
       "colors": [
@@ -401,7 +401,7 @@
       "bytes": 26023
     },
     {
-      "id": "cuios_humor_eatfirst",
+      "id": "humor_eatfirst",
       "style": "sunset",
       "image": "captions/v4.0.2/humor_eatfirst-7da6f87d0b.png",
       "colors": [
@@ -412,7 +412,7 @@
       "bytes": 22798
     },
     {
-      "id": "cuios_humor_salary",
+      "id": "humor_salary",
       "style": "aurora",
       "image": "captions/v4.0.2/humor_salary-540a1e85e4.png",
       "colors": [
@@ -423,7 +423,7 @@
       "bytes": 25295
     },
     {
-      "id": "cuios_humor_rest",
+      "id": "humor_rest",
       "style": "silk",
       "image": "captions/v4.0.2/humor_rest-61d8a54865.png",
       "colors": [
@@ -434,7 +434,7 @@
       "bytes": 40368
     },
     {
-      "id": "cuios_humor_hungry",
+      "id": "humor_hungry",
       "style": "cyber",
       "image": "captions/v4.0.2/humor_hungry-4698db8060.png",
       "colors": [
@@ -445,7 +445,7 @@
       "bytes": 39880
     },
     {
-      "id": "cuios_humor_sleepy",
+      "id": "humor_sleepy",
       "style": "liquid",
       "image": "captions/v4.0.2/humor_sleepy-166ae52e3a.png",
       "colors": [
@@ -456,7 +456,7 @@
       "bytes": 46457
     },
     {
-      "id": "cuios_humor_lag",
+      "id": "humor_lag",
       "style": "neon",
       "image": "captions/v4.0.2/humor_lag-bd502f912f.png",
       "colors": [
@@ -467,7 +467,7 @@
       "bytes": 31742
     },
     {
-      "id": "cuios_humor_subject",
+      "id": "humor_subject",
       "style": "galaxy",
       "image": "captions/v4.0.2/humor_subject-f05e756e10.png",
       "colors": [
@@ -478,7 +478,7 @@
       "bytes": 42121
     },
     {
-      "id": "cuios_humor_alarm",
+      "id": "humor_alarm",
       "style": "ocean",
       "image": "captions/v4.0.2/humor_alarm-a5edf8a2f8.png",
       "colors": [
@@ -489,7 +489,7 @@
       "bytes": 57258
     },
     {
-      "id": "cuios_humor_gossip",
+      "id": "humor_gossip",
       "style": "silk",
       "image": "captions/v4.0.2/humor_gossip-2f05829d4b.png",
       "colors": [
@@ -500,7 +500,7 @@
       "bytes": 45270
     },
     {
-      "id": "cuios_love_choose",
+      "id": "love_choose",
       "style": "ocean",
       "image": "captions/v4.0.2/love_choose-d96dce875d.png",
       "colors": [
@@ -511,7 +511,7 @@
       "bytes": 69880
     },
     {
-      "id": "cuios_love_withyou",
+      "id": "love_withyou",
       "style": "cyber",
       "image": "captions/v4.0.2/love_withyou-82c81d9062.png",
       "colors": [
@@ -522,7 +522,7 @@
       "bytes": 35877
     },
     {
-      "id": "cuios_love_soft",
+      "id": "love_soft",
       "style": "prism",
       "image": "captions/v4.0.2/love_soft-4a087f68fa.png",
       "colors": [
@@ -533,7 +533,7 @@
       "bytes": 43211
     },
     {
-      "id": "cuios_love_little",
+      "id": "love_little",
       "style": "cyber",
       "image": "captions/v4.0.2/love_little-e322d0fa6d.png",
       "colors": [
@@ -544,7 +544,7 @@
       "bytes": 32644
     },
     {
-      "id": "cuios_love_home",
+      "id": "love_home",
       "style": "neon",
       "image": "captions/v4.0.2/love_home-cc1a3d73ef.png",
       "colors": [
@@ -555,7 +555,7 @@
       "bytes": 35327
     },
     {
-      "id": "cuios_love_hug",
+      "id": "love_hug",
       "style": "bloom",
       "image": "captions/v4.0.2/love_hug-49993c3c36.png",
       "colors": [
@@ -566,7 +566,7 @@
       "bytes": 32944
     },
     {
-      "id": "cuios_love_miss",
+      "id": "love_miss",
       "style": "liquid",
       "image": "captions/v4.0.2/love_miss-24845da925.png",
       "colors": [
@@ -577,7 +577,7 @@
       "bytes": 39476
     },
     {
-      "id": "cuios_love_smile",
+      "id": "love_smile",
       "style": "ember",
       "image": "captions/v4.0.2/love_smile-562e28ceee.png",
       "colors": [
@@ -588,7 +588,7 @@
       "bytes": 33682
     },
     {
-      "id": "cuios_love_wait",
+      "id": "love_wait",
       "style": "hologram",
       "image": "captions/v4.0.2/love_wait-a62057abc9.png",
       "colors": [
@@ -599,7 +599,7 @@
       "bytes": 53231
     },
     {
-      "id": "cuios_love_simple",
+      "id": "love_simple",
       "style": "neon",
       "image": "captions/v4.0.2/love_simple-bac6bedf2d.png",
       "colors": [
@@ -610,7 +610,7 @@
       "bytes": 30203
     },
     {
-      "id": "cuios_joy_enough",
+      "id": "joy_enough",
       "style": "cyber",
       "image": "captions/v4.0.2/joy_enough-dab80fd762.png",
       "colors": [
@@ -621,7 +621,7 @@
       "bytes": 38594
     },
     {
-      "id": "cuios_joy_vitamin",
+      "id": "joy_vitamin",
       "style": "galaxy",
       "image": "captions/v4.0.2/joy_vitamin-050193247d.png",
       "colors": [
@@ -632,7 +632,7 @@
       "bytes": 40835
     },
     {
-      "id": "cuios_joy_happy",
+      "id": "joy_happy",
       "style": "liquid",
       "image": "captions/v4.0.2/joy_happy-8b3b65a09e.png",
       "colors": [
@@ -643,7 +643,7 @@
       "bytes": 45340
     },
     {
-      "id": "cuios_joy_broadcast",
+      "id": "joy_broadcast",
       "style": "bloom",
       "image": "captions/v4.0.2/joy_broadcast-d016470dd7.png",
       "colors": [
@@ -654,7 +654,7 @@
       "bytes": 36681
     },
     {
-      "id": "cuios_joy_sun",
+      "id": "joy_sun",
       "style": "prism",
       "image": "captions/v4.0.2/joy_sun-308e201e3c.png",
       "colors": [
@@ -665,7 +665,7 @@
       "bytes": 37612
     },
     {
-      "id": "cuios_joy_luck",
+      "id": "joy_luck",
       "style": "ember",
       "image": "captions/v4.0.2/joy_luck-023168ccbe.png",
       "colors": [
@@ -676,7 +676,7 @@
       "bytes": 27100
     },
     {
-      "id": "cuios_joy_photo",
+      "id": "joy_photo",
       "style": "ocean",
       "image": "captions/v4.0.2/joy_photo-64672706c8.png",
       "colors": [
@@ -687,7 +687,7 @@
       "bytes": 59792
     },
     {
-      "id": "cuios_joy_weekend",
+      "id": "joy_weekend",
       "style": "ember",
       "image": "captions/v4.0.2/joy_weekend-f1153a3a0d.png",
       "colors": [
@@ -698,7 +698,7 @@
       "bytes": 36935
     },
     {
-      "id": "cuios_joy_save",
+      "id": "joy_save",
       "style": "liquid",
       "image": "captions/v4.0.2/joy_save-4d16cb7762.png",
       "colors": [
@@ -709,7 +709,7 @@
       "bytes": 42357
     },
     {
-      "id": "cuios_joy_laugh",
+      "id": "joy_laugh",
       "style": "aurora",
       "image": "captions/v4.0.2/joy_laugh-a8754e46e7.png",
       "colors": [
@@ -720,7 +720,7 @@
       "bytes": 26833
     },
     {
-      "id": "cuios_mood_rain",
+      "id": "mood_rain",
       "style": "sunset",
       "image": "captions/v4.0.2/mood_rain-4a654b1ae3.png",
       "colors": [
@@ -731,7 +731,7 @@
       "bytes": 24221
     },
     {
-      "id": "cuios_mood_quiet",
+      "id": "mood_quiet",
       "style": "silk",
       "image": "captions/v4.0.2/mood_quiet-28172e70c4.png",
       "colors": [
@@ -742,7 +742,7 @@
       "bytes": 37959
     },
     {
-      "id": "cuios_mood_thought",
+      "id": "mood_thought",
       "style": "ember",
       "image": "captions/v4.0.2/mood_thought-6944e9a297.png",
       "colors": [
@@ -753,7 +753,7 @@
       "bytes": 27660
     },
     {
-      "id": "cuios_mood_slow",
+      "id": "mood_slow",
       "style": "cyber",
       "image": "captions/v4.0.2/mood_slow-a216d084c2.png",
       "colors": [
@@ -764,7 +764,7 @@
       "bytes": 37929
     },
     {
-      "id": "cuios_mood_hug",
+      "id": "mood_hug",
       "style": "liquid",
       "image": "captions/v4.0.2/mood_hug-e4469b03ac.png",
       "colors": [
@@ -775,7 +775,7 @@
       "bytes": 46836
     },
     {
-      "id": "cuios_mood_tired",
+      "id": "mood_tired",
       "style": "ocean",
       "image": "captions/v4.0.2/mood_tired-15625d5b32.png",
       "colors": [
@@ -786,7 +786,7 @@
       "bytes": 57549
     },
     {
-      "id": "cuios_mood_okay",
+      "id": "mood_okay",
       "style": "neon",
       "image": "captions/v4.0.2/mood_okay-f38da52d88.png",
       "colors": [
@@ -797,7 +797,7 @@
       "bytes": 38127
     },
     {
-      "id": "cuios_mood_hope",
+      "id": "mood_hope",
       "style": "hologram",
       "image": "captions/v4.0.2/mood_hope-245a949bbd.png",
       "colors": [
@@ -808,7 +808,7 @@
       "bytes": 48783
     },
     {
-      "id": "cuios_mood_memory",
+      "id": "mood_memory",
       "style": "neon",
       "image": "captions/v4.0.2/mood_memory-23b05b34c1.png",
       "colors": [
@@ -819,7 +819,7 @@
       "bytes": 31968
     },
     {
-      "id": "cuios_mood_feeling",
+      "id": "mood_feeling",
       "style": "sunset",
       "image": "captions/v4.0.2/mood_feeling-4d86f30d50.png",
       "colors": [
@@ -830,7 +830,7 @@
       "bytes": 25914
     },
     {
-      "id": "cuios_friends_karma",
+      "id": "friends_karma",
       "style": "neon",
       "image": "captions/v4.0.2/friends_karma-a5bfb0375d.png",
       "colors": [
@@ -841,7 +841,7 @@
       "bytes": 33556
     },
     {
-      "id": "cuios_friends_stories",
+      "id": "friends_stories",
       "style": "galaxy",
       "image": "captions/v4.0.2/friends_stories-587481d12e.png",
       "colors": [
@@ -852,7 +852,7 @@
       "bytes": 41911
     },
     {
-      "id": "cuios_friends_together",
+      "id": "friends_together",
       "style": "prism",
       "image": "captions/v4.0.2/friends_together-20f945b5cd.png",
       "colors": [
@@ -863,7 +863,7 @@
       "bytes": 37173
     },
     {
-      "id": "cuios_friends_call",
+      "id": "friends_call",
       "style": "silk",
       "image": "captions/v4.0.2/friends_call-0b0e3e6484.png",
       "colors": [
@@ -874,7 +874,7 @@
       "bytes": 53368
     },
     {
-      "id": "cuios_friends_snacks",
+      "id": "friends_snacks",
       "style": "galaxy",
       "image": "captions/v4.0.2/friends_snacks-cf1c4b4c96.png",
       "colors": [
@@ -885,7 +885,7 @@
       "bytes": 40079
     },
     {
-      "id": "cuios_daily_coffee",
+      "id": "daily_coffee",
       "style": "hologram",
       "image": "captions/v4.0.2/daily_coffee-db423704d1.png",
       "colors": [
@@ -896,7 +896,7 @@
       "bytes": 53437
     },
     {
-      "id": "cuios_daily_study",
+      "id": "daily_study",
       "style": "ember",
       "image": "captions/v4.0.2/daily_study-be2c48e577.png",
       "colors": [
@@ -907,7 +907,7 @@
       "bytes": 34062
     },
     {
-      "id": "cuios_daily_offwork",
+      "id": "daily_offwork",
       "style": "hologram",
       "image": "captions/v4.0.2/daily_offwork-feab508772.png",
       "colors": [
@@ -918,7 +918,7 @@
       "bytes": 51284
     },
     {
-      "id": "cuios_daily_anywhere",
+      "id": "daily_anywhere",
       "style": "galaxy",
       "image": "captions/v4.0.2/daily_anywhere-fe30e6bbd7.png",
       "colors": [
@@ -929,7 +929,7 @@
       "bytes": 37191
     },
     {
-      "id": "cuios_daily_ordinary",
+      "id": "daily_ordinary",
       "style": "neon",
       "image": "captions/v4.0.2/daily_ordinary-1aa76b7bc0.png",
       "colors": [
@@ -940,7 +940,7 @@
       "bytes": 34182
     },
     {
-      "id": "cuios_confidence_filter",
+      "id": "confidence_filter",
       "style": "ocean",
       "image": "captions/v4.0.2/confidence_filter-6703fe6e88.png",
       "colors": [
@@ -951,7 +951,7 @@
       "bytes": 60701
     },
     {
-      "id": "cuios_confidence_choice",
+      "id": "confidence_choice",
       "style": "cyber",
       "image": "captions/v4.0.2/confidence_choice-1cf87211dd.png",
       "colors": [
@@ -962,7 +962,7 @@
       "bytes": 37349
     },
     {
-      "id": "cuios_confidence_version",
+      "id": "confidence_version",
       "style": "hologram",
       "image": "captions/v4.0.2/confidence_version-a5da7658e0.png",
       "colors": [
@@ -973,7 +973,7 @@
       "bytes": 51695
     },
     {
-      "id": "cuios_confidence_myway",
+      "id": "confidence_myway",
       "style": "hologram",
       "image": "captions/v4.0.2/confidence_myway-27022b568d.png",
       "colors": [
@@ -984,7 +984,7 @@
       "bytes": 57310
     },
     {
-      "id": "cuios_confidence_imperfect",
+      "id": "confidence_imperfect",
       "style": "silk",
       "image": "captions/v4.0.2/confidence_imperfect-dcb30f9f89.png",
       "colors": [
